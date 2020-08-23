@@ -1,35 +1,44 @@
 <template>
-    <div id="font">
-      <h1>~更多问题~</h1>
-      <LI>小朋友你是否有很多问号</LI>
-      <LI>小朋友你是否有很多问号</LI>
-      <LI>小朋友你是否有很多问号</LI>
-      <LI>小朋友你是否有很多问号</LI>
+  <div  id="foremore">
+    <img  id="bi" src="http://img.nt-geek.club/more.png">
+    <div id="mf">
+      <div id="mf1"><li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      </div>
+      <span ID="mf2"></span>
+      <div  id="mf3">
+
+      </div>
+      <span id="mf4"></span>
+    </div>
   </div>
 </template>
 
 <script>
-    export default {
-        name: "formore.vue"
-    }
+  export default {
+    el:"#foremore",
+  }
 </script>
 
-<style scoped>
-  #font{
-      position: absolute;
-      top: 580%;
-      width: 100%;
-      height: 100%;
-  }
-  h1{
+<style>
+  #foremore{
     position: absolute;
-    left: 40%;
-    font-size: 3em;
+    width: 100%;
+    top: 710%;
   }
-  li{
-    position:absolute;
-    top: 15%;
-    font-size: 1.5em;
-    left: 30%;
+  #bi{
+    position: absolute;
+    width: 100%;
+  }
+  #mf{
+      position: absolute;
+    left: 30vw;
+    top:13vw;
+  }
+  #mf1{
+    font-size: 3vw;
+    color: white;
   }
 </style>

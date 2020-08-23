@@ -1,8 +1,12 @@
 <template>
   <div id="产品猫">
-    <div id="文字猫">
-      <img id="cat" src="http://img.nt-geek.club/产品猫.png">
+    <div id="lionf">
+      <img id="lion" src="http://img.nt-geek.club/anquan.png">
+      <div id="lif">
+      <span>安全攻城狮(Safety Engineer)</span>
+        <span>简称SE。</span>
     </div>
+  </div>
   </div>
 </template>
 
@@ -13,11 +17,20 @@
 </script>
 
 <style scoped>
-  #cat{ margin:0;
+  #lion{ margin:0;
     padding:0;
     position: absolute;
     top:390%;
-    left:0%;
-    height: 90%
+    left:2%;
+    width: 48vw;
+    height: 48vw;
+
   }
+  #lif{
+    font-size: 2.3vw;
+    font-family: FZYaoti;
+       position: absolute;
+       top:405%;
+    left: 55%;
+     }
 </style>

@@ -1,7 +1,7 @@
 
 <template>
   <div id="方向介绍" class="bp">
-    <span id="过渡">~方向介绍~</span>
+    <img id="it" SRC="http://img.nt-geek.club/介绍.png">
   </div>
 </template>
 
@@ -13,13 +13,11 @@
 </script>
 
 <style scoped>
-  #过渡{
+  #it{
     position: absolute;
     top: 60%;
-    right: 38%;
-    font-family: sans-serif;
-    font-size: 30vm;
-    font-weight: bolder;
+    right: 30%;
+    width: 33vw;
   }
   #方向介绍{position: absolute;
     top: 100%;

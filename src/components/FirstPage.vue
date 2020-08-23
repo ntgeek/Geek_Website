@@ -29,7 +29,7 @@
   #fontz1{
     position: absolute;
     font-family: STHupo;
-    left: 4.5%;
+    left: 3vw;
     color:black;
     font-weight: bolder;
     transition: all 0.6s;
@@ -37,14 +37,14 @@
   #fontz2{
     position: absolute;
     font-family: STHupo;
-    right: 12%;
+    right: 12vw;
     font-weight: bolder;
     transition: all 0.6s;
   }
   #fontz3{
     font-family: STHupo;
     position: absolute;
-    right: 3%;
+    right: 3vw;
     font-weight: bolder;
     transition: all 0.6s;
   }
@@ -58,13 +58,18 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2.1em;
+    font-size: 1.7vw;
   }
   button:hover{cursor: pointer;
     transform: scale(1.4);}
   @font-face {
     font-family: STHupo;
     src: url(font.ttf);
+    font-weight:bold;
+  }
+  @font-face {
+    font-family: FZYaoti;
+    src:url(fzyaoti.ttf);
     font-weight:bold;
   }
   img:hover{cursor: pointer;

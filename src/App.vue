@@ -1,30 +1,36 @@
 <script>
   import fontend from './components/fontend';
-  import SafetyEngineer from "./components/SafetyEngineer";
   import ai from "./components/Ai";
   import pm from "./components/PM"
   import formore from "./components/formore";
-  import userdesign from "./components/userdesign";
+  import pro from "./components/pro";
+  import Aboutus from "./components/Aboutus";
+  import contactus from "./components/contactus";
+
+
+  "use strict";
 
   export default {
     name: 'first',
     components: {
       "v-fontend":fontend,
-      "v-Satety":SafetyEngineer,
+      "v-pro":pro,
       "v-ai":ai,
       "v-pm":pm,
       "v-foremore":formore,
-      "v-userdegsign":userdesign
+      "v-Aboutus":Aboutus,
+      "v-contactus":contactus
     }
 }
 </script>
 <template>
   <div id="first">
     <v-fontend></v-fontend>
-    <v--satety></v--satety>
+    <v-pro></v-pro>
     <v-ai></v-ai>
     <v-pm></v-pm>
-    <v-userdegsign></v-userdegsign>
+    <v-Aboutus></v-Aboutus>
+    <v-contactus></v-contactus>
     <v-foremore></v-foremore>
     <router-view/>
   </div>
@@ -40,6 +46,7 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width:100%;
-  height: 125%;
+  height: 60vw;
 }
+
 </style>
