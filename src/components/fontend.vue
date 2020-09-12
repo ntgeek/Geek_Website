@@ -1,5 +1,6 @@
 <template>
   <div id="fontend" class="bm">
+    <div id="bold1">
     <div  id="fz1">
      <div id="fq1">
     <span>"前后端开发（Front&Back)"</span><br>
@@ -21,22 +22,38 @@
       </div>
     </div>
     <img id="monkey" src="http://img.nt-geek.club/houzi.png">
+    <img id="houzi" src="http://img.nt-geek.club/shangbanshen.png" >
+    <img id="xiangjiao" src="http://img.nt-geek.club/香蕉.png">
+    </div>
   </div>
 </template>
 
 <script>
-    export default {
-      el:"#前后端开发",
-    }
+  function code(text){
+    let i =0;
+    setInterval(function(){
+      i++;
+      window.history.pushState(null,null, text.substr(0,i))
+
+    },100)
+  }
+  code('加入GEEK组，和我们一起做追月亮的人')
 </script>
 
 <style>
-  #monkey{
+  @media screen and (min-width:769px){
+    #xiangjiao{
+      display: none;
+    }
+    #houzi{
+      display: none;
+    }
+    #monkey{
     position: absolute;
     top:0%;
     right: 1%;
     width: 45vw;
-    height: 50vw;
+    height: 115%;
   }
   #fontend{
      position: absolute;
@@ -58,6 +75,80 @@
     font-size: 2vw;
     font-weight: bolder;
   }
+
+  p{
+    color: aqua;
+    font-size: 1.8vw;
+  }}
+  @media (max-width: 768px) and (min-width: 480px) {
+    #bold1 {
+      top: 108%;
+      width: 80%;
+      height: 80%;
+      left: 10%;
+      position: absolute;
+      border: 1vw solid cornflowerblue;
+      border-radius: 5vw;
+      z-index: 10;
+    }
+
+    #fz2 {
+      font-size: 2.8vw;
+    }
+
+    #fq1 {
+      font-size: 2.8vw;
+      font-weight: bolder;
+    }
+  }
+  @media (max-width: 479px) {
+    #xiangjiao{
+      display: none;
+    }
+    #bold1{
+      top:108%;
+      width: 80%;
+      height: 80%;
+      left: 10%;
+      position: absolute;
+      border: 1vw solid cornflowerblue;
+      border-radius: 5vw;
+      z-index: 10;
+    }
+    #fz2{
+      font-size:2.8vw;
+    }
+    #fq1{
+      font-size: 2.8vw;
+      font-weight: bolder;
+  }
+    p{
+      color: aqua;
+      font-size: 2.8vw;
+    }
+    #monkey{display: none}
+    #houzi{
+      position: absolute;
+      right: 7%;
+      top: 60%;
+      width: 60%;
+      height:35%;
+      z-index: 0;
+    }
+    #fz1{
+      position: absolute;
+      top:3%;
+      left:7%;
+      font-family: FZYaoti;
+      z-index: 10;
+    }
+    #xiangjiao{
+      display: none;
+      position: absolute;
+      width: 20%;
+      right: 0%;
+    }
+  }
   span{
     word-break:normal;
     width:auto;
@@ -66,8 +157,5 @@
     word-wrap : break-word ;
     overflow: hidden ;
   }
-  p{
-    color: aqua;
-    font-size: 1.8vw;
-  }
+
 </style>

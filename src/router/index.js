@@ -5,9 +5,6 @@ import SecondPage from "../components/SecondPage"
 import transition from "../components/transition"
 import fontend from "../components/fontend"
 
-
-
-
 Vue.use(Router)
 
 export default new Router({

@@ -14,6 +14,8 @@
       <li>PM是一个有思想和大局观的设计家，一个有全局管的掌舵者。</li>
     </div>
     <img id="chanpin" src="http://img.nt-geek.club/chanpin.png">
+      <img id="chanpin2" src="http://img.nt-geek.club/俩个.png">
+    <img id="heiban"  src="http://img.nt-geek.club/黑板.png">
   </div>
 </template>
 
@@ -24,31 +26,118 @@
 </script>
 
 <style >
-  #chanpin {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0%;
-    left: 2%;
-    height: 48vw;
-    width: 45vw;
+  @media screen and (min-width:769px) {
+    #heiban{display: none}
+    #chanpin2{display: none}
+    #chanpin {
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 0%;
+      left: 2%;
+      height: 48vw;
+      width: 45vw;
+    }
+
+    #cat {
+      position: absolute;
+      top: 218%;
+      left: 0%;
+      right: 0%;
+      height: 70%;
+    }
+
+    #fp {
+      top: 10vw;
+      position: absolute;
+      left: 50vw;
+      font-size: 1.5vw;
+    }
+
+    #p1 {
+      font-size: 2.3vw;
+      font-weight: bolder;
+    }
   }
-  #cat{
-    position: absolute;
-    top:218%;
-    left: 0%;
-    right:0%;
-    height: 70%;
+  @media (max-width: 768px) {
+#ai3{
+
+}
+    #chanpin{
+      display: none;
+    }
+    #chanpin2{
+        position: absolute;
+      top: 60%;
+      height:40% ;
+      width: 68%;
+      right: 5%;
+    }
+    #fp {
+      top: 4%;
+      position: absolute;
+      font-size: 3vw;
+      left:7%;
+    }
+    #p1 {
+      top: 4%;
+      font-size: 3vw;
+      font-weight: bolder;
+    }
+    #cat{
+      top:200%;
+      width: 80%;
+      height: 80%;
+      left: 10%;
+      position: absolute;
+      border: 1vw solid mediumpurple;
+      border-radius: 5vw;
+      z-index: 10;
+    }
+  #heiban{position: absolute;
+    width: 20%;
+    right: 0%;}
   }
-  #fp{
-    top: 10vw;
-    position: absolute;
-    left: 50vw;
-    font-size: 1.5vw;
-  }
-  #p1{
-    font-size: 2.3vw;
-    font-weight: bolder;
+  @media (max-width: 479px) {
+    #ai3{
+
+    }
+    #chanpin{
+      display: none;
+    }
+    #chanpin2{
+      position: absolute;
+      top: 60%;
+      height:40% ;
+      width: 68%;
+      right: 5%;
+    }
+    #fp {
+      top: 4%;
+      position: absolute;
+      font-size: 3vw;
+      left:7%;
+    }
+    #p1 {
+      top: 4%;
+      font-size: 3vw;
+      font-weight: bolder;
+    }
+    #cat{
+      top:200%;
+      width: 80%;
+      height: 80%;
+      left: 10%;
+      position: absolute;
+      border: 1vw solid mediumpurple;
+      border-radius: 5vw;
+      z-index: 10;
+    }
+    #heiban{
+      display: none;
+      position: absolute;
+      width: 20%;
+      right: 0%;}
   }
   li{
     font-family: FZYaoti;

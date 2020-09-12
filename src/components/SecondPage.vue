@@ -1,6 +1,6 @@
 <template>
-  <div id="方向介绍" class="bp">
-    <span id="过渡">方向介绍</span>
+  <div id="introuduce" class="bp">
+    <span id="pas">方向介绍</span>
   </div>
 </template>
 <script>
@@ -10,7 +10,7 @@
 </script>
 
 <style scoped>
-  #过渡{
+  #pas{
     position: absolute;
     top: 60%;
     right: 45%;
@@ -18,7 +18,7 @@
     font-size: 68px;
     font-weight: bolder;
   }
-  #方向介绍{position: absolute;
+  #introuduce{position: absolute;
      top: 135%;
      left: 1%;
      right:1%;

@@ -40,13 +40,34 @@
     margin:0;
     padding:0;
   }
-#first{
-  background: url("http://img.nt-geek.club/首页背景.png");
-  position: absolute;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width:100%;
-  height: 60vw;
-}
+  @media(min-width: 768px) {
+    #first {
+      background: url("http://img.nt-geek.club/首页背景.png");
+      position: absolute;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 100%;
+      height: 60vw;
+    }
+  }
+    @media (max-width: 768px) and (min-width:480px ) {
+      #first {
+        background: url("http://img.nt-geek.club/shouye.png");
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 125vw;
+      }
+    }
+      @media (max-width:479px) {
+        #first {
+          background: url("http://img.nt-geek.club/shouye.png");
+          position: absolute;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          width: 100%;
+          height: 150vw;
+        }
+      }
 
 </style>

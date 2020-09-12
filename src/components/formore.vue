@@ -1,15 +1,12 @@
 <template>
   <div  id="foremore">
     <img  id="bi" src="http://img.nt-geek.club/more.png">
+    <img  id="bi2" src="http://img.nt-geek.club/天鹅1.png">
     <div id="mf">
-      <div id="mf1"><li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <div id="mf1">
       </div>
       <span ID="mf2"></span>
       <div  id="mf3">
-
       </div>
       <span id="mf4"></span>
     </div>
@@ -23,7 +20,9 @@
 </script>
 
 <style>
-  #foremore{
+  @media (min-width:769px){
+    #bi2{display: none}
+#foremore{
     position: absolute;
     width: 100%;
     top: 710%;
@@ -34,11 +33,32 @@
   }
   #mf{
       position: absolute;
-    left: 30vw;
     top:13vw;
   }
   #mf1{
     font-size: 3vw;
     color: white;
+  }}
+  @media (max-width: 768px) and (min-width: 480px){
+    #bi{
+      display: none;
+    }
+    #bi2{
+      position: absolute;
+      top: 710%;
+      width: 100%;
+      right: 0%;
+    }
+  }
+  @media(max-width: 479px){
+    #bi{
+      display: none;
+    }
+    #bi2{
+      position: absolute;
+      top: 710%;
+      width: 100%;
+      right: 0%;
+    }
   }
 </style>

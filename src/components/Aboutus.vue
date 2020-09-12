@@ -41,6 +41,7 @@
 </script>
 
 <style scoped>
+  @media (min-width:769px) {
     #about{
       top:7vw;
       position: absolute;
@@ -52,70 +53,69 @@
       width: 100%;
       top: 470%;
     }
-  #speech{
-    top:2vw;
-    left: 2vw;
-    position: absolute;
-    width: 14vw;
-    height: 20vw;
-  }
-#time{
-  top:2vw;
-  left: 2vw;
-  position: absolute;
-  width: 14vw;
-  height:20vw;}
-
+    #speech{
+      top:2vw;
+      left: 2vw;
+      position: absolute;
+      width: 14vw;
+      height: 20vw;
+    }
+    #time{
+      top:2vw;
+      left: 2vw;
+      position: absolute;
+      width: 14vw;
+      height:20vw;}
     #douyan{
       top:2vw;
       left: 2vw;
       position: absolute;
       width: 14vw;
       height: 19vw;}
-  #lefts{
-    position: absolute;
-    top:14vw;
-    width: 14vw;
-    left: 2vw;
-  }
+    #lefts{
+      position: absolute;
+      top:14vw;
+      width: 25%;
+      left: 2vw;
+    }
     #rights{
       position: absolute;
       top:14vw;
-      width: 14vw;
+      width: 25%;
       right: 2vw;
     }
-  #leftx{position: absolute;
-    top:65vw;
-    width: 14vw;
-    left: 2vw;}
+    #leftx{position: absolute;
+      top:65vw;
+      width: 25%;
+      left: 2vw;}
     #ringtx{position: absolute;
       top:65vw;
-      width: 14vw;
+      width: 25%;
       right: 2vw;}
-  #chongzi{
-    position: absolute;
-    top: 35vw;
-    width: 9vw;
-    left: 2vw;
-  }
-  #hudie{
-    position: absolute;
-    top:51vw;
-    width: 12vw;
-    right: 1vw;
-  }
-  #f1{
-    height: 37vw;
-    top: 21.8vw;
-    position: absolute;
-    left: 14vw;
-    width: 19vw;
-    border: 3px;
-    solid-color: black;
-    border: 1vw solid #8B88B7;
-    border-radius: 5vw;
-    font-size: 1.5vw;
-  }
+    #chongzi{
+      position: absolute;
+      top: 30vw;
+      width: 9vw;
+      left: 2vw;
+    }
+    #hudie{
+      position: absolute;
+      top:51vw;
+      width: 12vw;
+      right: 1vw;
+    }
+    #f1{
+      height: 37vw;
+      top: 21.8vw;
+      position: absolute;
+      left: 14vw;
+      width: 19vw;
+      border: 3px;
+      solid-color: black;
+      border: 1vw solid #8B88B7;
+      border-radius: 5vw;
+      font-size: 1.5vw;
+    }
     #f2{
       height: 37vw;
       top: 21.8vw;
@@ -139,18 +139,263 @@
       border-radius: 5vw;
       font-size: 1.48vw;
     }
-  #fm1{
-    left: 3.1vw;
-    position: absolute;
-    top: 22.7vw;
+    #fm1{
+      left: 3.1vw;
+      position: absolute;
+      top: 22.7vw;
+    }
+    #fm2{
+      left: 3.1vw;
+      position: absolute;
+      top: 22.7vw;
+    }
+    #fm3{
+      left: 3.1vw;
+      position: absolute;
+      top: 22.7vw;}
   }
-  #fm2{
-    left: 3.1vw;
-    position: absolute;
-    top: 22.7vw;
+  @media (max-width: 768px) and (min-width:480px ) {
+    #fm {
+      position: absolute;
+      top: 475%;
+      width: 100%;
+    }
+
+    #about {
+      top: 0%;
+      position: absolute;
+      width: 40%;
+      left: 30%;
+    }
+
+    #speech {
+      top: 8%;
+      left: 4vw;
+      position: absolute;
+      width: 24%;
+      height: 80%;
+    }
+
+    #time {
+      top: 8%;
+      left: 4vw;
+      position: absolute;
+      width: 24%;
+      height: 80%;
+    }
+
+    #douyan {
+      top: 8%;
+      left: 4vw;
+      position: absolute;
+      width: 24%;
+      height: 80%;
+    }
+
+    #lefts {
+      position: absolute;
+      top: 14vw;
+      width: 14vw;
+      left: 2vw;
+    }
+
+    #rights {
+      position: absolute;
+      top: 14vw;
+      width: 14vw;
+      right: 2vw;
+    }
+
+    #leftx {
+      position: absolute;
+      top: 160vw;
+      width: 14vw;
+      left: 2vw;
+    }
+
+    #ringtx {
+      position: absolute;
+      top: 160vw;
+      width: 14vw;
+      right: 2vw;
+    }
+
+    #chongzi {
+      position: absolute;
+      width: 9vw;
+      left: 2vw;
+    }
+
+    #hudie {
+      position: absolute;
+      width: 12vw;
+      right: 1vw;
+    }
+
+    #f1 {
+      height: 35vw;
+      top: 24vw;
+      position: absolute;
+      width: 80%;
+      left: 10%;
+      border: 1.5vw solid #8B88B7;
+      border-radius: 4vw;
+      font-size: 1.5vw;
+    }
+
+    #f2 {
+      height: 35vw;
+      top: 70vw;
+      position: absolute;
+      width: 80%;
+      left: 10%;
+      border: 1.5vw solid #8B88B7;
+      border-radius: 4vw;
+      font-size: 1.5vw;
+    }
+
+    #f3 {
+      height: 35vw;
+      top: 115vw;
+      position: absolute;
+      width: 80%;
+      left: 10%;
+      border: 1.5vw solid #8B88B7;
+      border-radius: 4vw;
+      font-size: 1.5vw;
+    }
+
+    #fm1 {
+      top: 10%;
+      left: 40%;
+      font-size: 4.8vw;
+      position: absolute;
+    }
+
+    #fm2 {
+      top: 10%;
+      left: 40%;
+      font-size: 4.8vw;
+      position: absolute;
+    }
+
+    #fm3 {
+      top: 10%;
+      left: 40%;
+      font-size: 4.8vw;
+      position: absolute;
+    }
   }
-  #fm3{
-    left: 3.1vw;
-    position: absolute;
-    top: 22.7vw;}
+    @media(max-width: 479px) {
+      #fm{
+        position: absolute;
+        top: 475%;
+        width: 100%;
+      }
+      #about{
+        top:0%;
+        position: absolute;
+        width: 40%;
+        left: 30%;
+      }
+      #speech{
+        top:8%;
+        left: 4vw;
+        position: absolute;
+        width: 24%;
+        height:80%;
+      }
+      #time{
+        top:8%;
+        left: 4vw;
+        position: absolute;
+        width: 24%;
+        height:80%;}
+      #douyan{
+        top:8%;
+        left: 4vw;
+        position: absolute;
+        width: 24%;
+        height:80%;}
+      #lefts{
+        position: absolute;
+        top:14vw;
+        width: 14vw;
+        left: 2vw;
+      }
+      #rights{
+        position: absolute;
+        top:14vw;
+        width: 14vw;
+        right: 2vw;
+      }
+      #leftx{
+        position: absolute;
+        top:160vw;
+        width: 14vw;
+        left: 2vw;}
+      #ringtx{
+        position: absolute;
+        top:160vw;
+        width: 14vw;
+        right: 2vw;}
+      #chongzi{
+        position: absolute;
+        width: 9vw;
+        left: 2vw;
+      }
+      #hudie{
+        position: absolute;
+        width: 12vw;
+        right: 1vw;
+      }
+      #f1{
+        height: 35vw;
+        top: 24vw;
+        position: absolute;
+        width:80%;
+        left: 10%;
+        border: 1.5vw solid #8B88B7;
+        border-radius: 4vw;
+        font-size: 1.5vw;
+      }
+      #f2{
+        height: 35vw;
+        top: 70vw;
+        position: absolute;
+        width:80%;
+        left: 10%;
+        border: 1.5vw solid #8B88B7;
+        border-radius: 4vw;
+        font-size: 1.5vw;
+      }
+      #f3{
+        height: 35vw;
+        top: 115vw;
+        position: absolute;
+        width:80%;
+        left: 10%;
+        border: 1.5vw solid #8B88B7;
+        border-radius: 4vw;
+        font-size: 1.5vw;
+      }
+      #fm1{
+        top: 10%;
+        left: 40%;
+        font-size: 4.8vw;
+        position: absolute;
+      }
+      #fm2{
+        top: 10%;
+        left: 40%;
+        font-size: 4.8vw;
+        position: absolute;
+      }
+      #fm3{
+        top: 10%;
+        left: 40%;
+        font-size: 4.8vw;
+        position: absolute;
+      }
+  }
 </style>

@@ -13,6 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "fontmin": "^0.9.8",
     "lib-flexible": "^0.3.2",
     "postcss-px2rem": "^0.3.0",
     "vue": "^2.5.2",

@@ -1,7 +1,9 @@
 
 <template>
   <div>
-  <img src="http://img.nt-geek.club/geek.png" id="图标">
+  <img src="http://img.nt-geek.club/geek.png" id="geek">
+  <img src="http://img.nt-geek.club/Geek1.png"  id="geek1">
+  <img src="http://img.nt-geek.club/anniu.png"  id="anniu">
     <template>
       <button id="fontz1" title="新思路官网" onclick="location.href='https://new-thread.com/'" >New thread</button>
     </template>
@@ -20,60 +22,113 @@
     }
 </script>
 <style scoped>
-  #图标{
+  @media screen and (min-width:769px) {
+    button {
+      font-size: 1.7vw;}
+
+    #geek{
+      position: absolute;
+      top: 13%;
+      left: 35%;
+      width: 30%;
+    }
+    #anniu{
+      display: none;
+    }
+
+    #fontz1 {
+      position: absolute;
+      font-family: STHupo;
+      left: 3vw;
+      color: black;
+      font-weight: bolder;
+      transition: all 0.6s;
+    }
+    #fontz2 {
+      position: absolute;
+      font-family: STHupo;
+      right: 12vw;
+      font-weight: bolder;
+      transition: all 0.6s;
+    }
+
+    #fontz3 {
+      font-family: STHupo;
+      position: absolute;
+      right: 3vw;
+      font-weight: bolder;
+      transition: all 0.6s;
+    }
+
+    button {
+      top: 1.5%;
+      outline: none;
+      background-color: #FFF9E6;
+      border: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    button:hover {
+      cursor: pointer;
+      transform: scale(1.4);}
+    img:hover {
+      cursor: pointer;
+      transform: scale(1.4);
+      transition: all 2s;}
+     #geek1{display: none;}
+  }
+  @media (max-width: 768px) and (min-width:480px){
+    #fontz1{display: none;}
+    #fontz2{display:none;}
+    #fontz3{display: none;}
+    #geek{
+      display: none;
+    }
+    #geek1{
+      position: absolute;
+      top: 16vw;
+      left: 23vw;
+      width: 60vw;
+    }
+  #anniu{
     position: absolute;
-    top: 13%;
-    left: 35%;
-    width: 30%;
+      top:40%;
+      right: 24%;
+      width: 70%;
+  }}
+  @media (max-width:479px) {
+    #fontz1{display: none;}
+    #fontz2{display:none;}
+    #fontz3{display: none;}
+    #geek{
+      display: none;
+    }
+    #geek1{
+      position: absolute;
+      top: 16vw;
+      left: 23vw;
+      width: 60vw;
+    }
+    #anniu{
+      position: absolute;
+      top:40%;
+      right: 24%;
+      width: 70%;
+    }
   }
-  #fontz1{
-    position: absolute;
-    font-family: STHupo;
-    left: 3vw;
-    color:black;
-    font-weight: bolder;
-    transition: all 0.6s;
-  }
-  #fontz2{
-    position: absolute;
-    font-family: STHupo;
-    right: 12vw;
-    font-weight: bolder;
-    transition: all 0.6s;
-  }
-  #fontz3{
-    font-family: STHupo;
-    position: absolute;
-    right: 3vw;
-    font-weight: bolder;
-    transition: all 0.6s;
-  }
-  button{
-    top: 1.5%;
-    outline: none;
-    background-color: #FFF9E6;
-    border: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.7vw;
-  }
-  button:hover{cursor: pointer;
-    transform: scale(1.4);}
-  @font-face {
-    font-family: STHupo;
-    src: url(font.ttf);
-    font-weight:bold;
-  }
-  @font-face {
-    font-family: FZYaoti;
-    src:url(fzyaoti.ttf);
-    font-weight:bold;
-  }
-  img:hover{cursor: pointer;
-    transform: scale(1.4);
-    transition: all 2s;
-  }
+    @font-face {
+      font-family: STHupo;
+      src: url(font.ttf);
+      font-weight: bold;
+    }
+
+    @font-face {
+      font-family: FZYaoti;
+      src: url(fzyaoti.ttf);
+      font-weight: bold;
+    }
 </style>
