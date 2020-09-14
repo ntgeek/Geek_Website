@@ -4,7 +4,7 @@
   import pm from "./components/PM"
   import formore from "./components/formore";
   import pro from "./components/pro";
-  import Aboutus from "./components/Aboutus";
+  import Aboutus from "./components/aboutus";
   import contactus from "./components/contactus";
 
 
@@ -24,8 +24,9 @@
 }
 </script>
 <template>
-  <div id="first">
+  <div id="first" class="bw">
     <v-fontend></v-fontend>
+    <div id="second">
     <v-pro></v-pro>
     <v-ai></v-ai>
     <v-pm></v-pm>
@@ -34,40 +35,40 @@
     <v-foremore></v-foremore>
     <router-view/>
   </div>
+  </div>
 </template>
-<style>
-  body{
-    margin:0;
-    padding:0;
-  }
+<style scoped>
   @media(min-width: 768px) {
+    .bw{background-color: white}
     #first {
       background: url("http://img.nt-geek.club/首页背景.png");
       position: absolute;
-      background-repeat: no-repeat;
       background-size: 100% 100%;
-      width: 100%;
-      height: 60vw;
+      left: 5%;
+      width: 90%;
+      height: 70vw;
+      background-color: white;
+      margin: 0 auto;
+    }
+    #second{
+      background-color: white;
     }
   }
     @media (max-width: 768px) and (min-width:480px ) {
       #first {
         background: url("http://img.nt-geek.club/shouye.png");
         position: absolute;
-        background-repeat: no-repeat;
         background-size: 100% 100%;
-        height: 125vw;
+        height: 60vw;
       }
     }
       @media (max-width:479px) {
         #first {
           background: url("http://img.nt-geek.club/shouye.png");
           position: absolute;
-          background-repeat: no-repeat;
           background-size: 100% 100%;
           width: 100%;
           height: 150vw;
         }
       }
-
 </style>

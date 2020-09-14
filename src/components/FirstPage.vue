@@ -1,6 +1,5 @@
-
 <template>
-  <div>
+  <div id="first1" class="inner">
   <img src="http://img.nt-geek.club/geek.png" id="geek">
   <img src="http://img.nt-geek.club/Geek1.png"  id="geek1">
   <img src="http://img.nt-geek.club/anniu.png"  id="anniu">
@@ -22,10 +21,8 @@
     }
 </script>
 <style scoped>
-  @media screen and (min-width:769px) {
-    button {
-      font-size: 1.7vw;}
 
+  @media screen and (min-width:769px) {
     #geek{
       position: absolute;
       top: 13%;
@@ -61,6 +58,7 @@
     }
 
     button {
+      font-size: 1.7vw;
       top: 1.5%;
       outline: none;
       background-color: #FFF9E6;
@@ -74,14 +72,15 @@
 
     button:hover {
       cursor: pointer;
-      transform: scale(1.4);}
+      transform: scale(1.1);}
     img:hover {
       cursor: pointer;
-      transform: scale(1.4);
-      transition: all 2s;}
+      transform: scale(1.1);
+      transition: all 0.5s;}
      #geek1{display: none;}
   }
   @media (max-width: 768px) and (min-width:480px){
+
     #fontz1{display: none;}
     #fontz2{display:none;}
     #fontz3{display: none;}

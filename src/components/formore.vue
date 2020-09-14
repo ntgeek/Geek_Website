@@ -1,7 +1,7 @@
 <template>
   <div  id="foremore">
-    <img  id="bi" src="http://img.nt-geek.club/more.png">
-    <img  id="bi2" src="http://img.nt-geek.club/天鹅1.png">
+    <img  id="bi" src="http://img.nt-geek.club/More.png">
+    <img  id="bi2" src="http://img.nt-geek.club/tiane.png">
     <div id="mf">
       <div id="mf1">
       </div>
@@ -22,23 +22,25 @@
 <style>
   @media (min-width:769px){
     #bi2{display: none}
-#foremore{
-    position: absolute;
-    width: 100%;
-    top: 710%;
-  }
-  #bi{
-    position: absolute;
-    width: 100%;
-  }
-  #mf{
+    #foremore{
       position: absolute;
-    top:13vw;
-  }
-  #mf1{
-    font-size: 3vw;
-    color: white;
-  }}
+      width: 100%;
+      top: 610%;
+    }
+    #bi{
+      position: absolute;
+      width: 91.5%;
+      left: 3%;
+      right: 3%;
+    }
+    #mf{
+      position: absolute;
+      top:13vw;
+    }
+    #mf1{
+      font-size: 3vw;
+      color: white;
+    }}
   @media (max-width: 768px) and (min-width: 480px){
     #bi{
       display: none;

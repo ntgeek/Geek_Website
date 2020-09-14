@@ -1,5 +1,5 @@
 <template>
-  <div id="方向介绍" class="bp">
+  <div id="introuduce1" class="bp" >
     <img id="it" SRC="http://img.nt-geek.club/介绍.png">
   </div>
 </template>
@@ -16,7 +16,7 @@
       right: 30%;
       width: 33vw;
     }
-    #方向介绍 {
+    #introuduce1{
       position: absolute;
       top: 100%;
       left: 1%;
@@ -28,6 +28,7 @@
       background-image: url(http://img.nt-geek.club/过渡花纹.png);
       background-repeat: no-repeat;
       background-size: 100% 100%;
+      background-color: white;
     }
   }
   @media (max-width: 768px) and (min-width:480px){
@@ -37,6 +38,5 @@
   @media (max-width: 479px){
     #it{
       display: none;
-    }
-  }
+    }}
 </style>

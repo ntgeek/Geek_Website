@@ -5,30 +5,26 @@
       <img id="shizi2"  src="http://img.nt-geek.club/shizi2.png">
       <img id="chap"  src="http://img.nt-geek.club/王冠.png">
       <div id="lif">
-      <span>安全攻城狮(Safety Engineer)</span>
+        <span id="safe">安全攻城狮(Safety)</span><br>
         <span>主要涉及网络攻防、漏洞挖掘，能够代表
 团队参加CTF安全赛事。</span>
         <P>我们需要的不是脚本小子，而是对底层
-原理了如指掌。</P>
-        <SPAN>互联网安全从其本质上来讲其实就是
-互联网上的信息安全</SPAN>
-        <SPAN>
-网络安全攻城狮是拥有扎实基础的
-Super Hacker,同时具有强大的自学能力。
-网络安全攻城狮能够识别IT系统的优缺点。并且了解黑客以及网络犯罪手段、
-且精通网络安全技术:
-包括端口、服务漏洞扫、程序漏洞分析检测、权限管理、病毒木马防范等。
-        </SPAN>
+          原理了如指掌。</P>
+        <span>• 互联网安全从其本质上来讲其实就是
+互联网上的信息安全
+• 网络安全攻城狮是拥有扎实基础的Super Hacker,同时具有强大的自学能力。
+• 网络安全攻城狮能够识别IT系统的优缺点。并且了解黑客以及网络犯罪手段,且精通网络安全技术:包括服务漏洞扫描、程序漏洞分析检测、病毒木马防范等。
+        </span>
 
+      </div>
     </div>
-  </div>
   </div>
 </template>
 
 <script>
-    export default {
-        name: "PM"
-    }
+  export default {
+    name: "PM"
+  }
 </script>
 
 <style scoped>
@@ -39,21 +35,26 @@ Super Hacker,同时具有强大的自学能力。
     #shizi2{
       display: none;
     }
-  #lion{ margin:0;
-    padding:0;
-    position: absolute;
-    top:390%;
-    left:2%;
-    width: 48vw;
-    height: 48vw;
-  }
-  #lif{
-    top: 390%;
-    font-size: 2.3vw;
-    font-family: FZYaoti;
-       position: absolute;
-    left: 55%;
-     }
+    #lion{ margin:0;
+      padding:0;
+      position: absolute;
+      top:378%;
+      left:4%;
+      width: 38vw;
+      height: 42vw;
+    }
+    #safe{
+      font-size: 3.5vw;
+      right: 5%;
+    }
+    #lif{
+      top:380%;
+      font-size: 2.3vw;
+      font-family: FZYaoti;
+      position: absolute;
+      left: 52%;
+      right: 5%;
+    }
   }
   @media (max-width: 768px) and (min-width:480px ) {
     #lion {
@@ -83,16 +84,16 @@ Super Hacker,同时具有强大的自学能力。
       font-weight: bolder;
       font-size: 3vw;
     }
-  #catpm{
-    top:385%;
-    width: 80%;
-    height: 80%;
-    left: 10%;
-    position: absolute;
-    border: 1vw solid yellowgreen;
-    border-radius: 5vw;
-    z-index: 10;
-  }
+    #catpm{
+      top:385%;
+      width: 80%;
+      height: 80%;
+      left: 10%;
+      position: absolute;
+      border: 1vw solid yellowgreen;
+      border-radius: 5vw;
+      z-index: 10;
+    }
   }
   @media (max-width: 479px){
     #lion {
