@@ -317,11 +317,11 @@
       top:8%;
       left: 4vw;
       position: absolute;
-      width: 24%;
+      width: 26%;
       height:80%;
     }
     #time{
-      top:8%;
+      top:10%;
       left: 4vw;
       position: absolute;
       width: 24%;
@@ -330,7 +330,7 @@
       top:8%;
       left: 4vw;
       position: absolute;
-      width: 24%;
+      width: 26%;
       height:80%;}
     #lefts{
       position: absolute;
@@ -395,21 +395,21 @@
       font-size: 1.5vw;
     }
     #fm1{
-      top: 10%;
+      top: 11%;
       left: 40%;
-      font-size: 4.8vw;
+      font-size: 4.5vw;
       position: absolute;
     }
     #fm2{
-      top: 10%;
+      top: 11%;
       left: 40%;
-      font-size: 4.8vw;
+      font-size: 4.5vw;
       position: absolute;
     }
     #fm3{
-      top: 10%;
+      top: 11%;
       left: 40%;
-      font-size: 4.8vw;
+      font-size: 4.5vw;
       position: absolute;
     }
   }

@@ -2,7 +2,7 @@
   <div id="cat">
     <div id="fp">
 
-      <span id="p1">产品经理/UI设计(PM/UI)</span>
+      <span id="p1">产品经理/UI设计(PM/UI)</span><br>
       <br>
       <span id="mingyan2">"好的软件的特征是,明明没用过，但总觉得用过似的。"</span>
       <span id="pm_introudce">
@@ -116,9 +116,9 @@
     }
     #chanpin2{
       position: absolute;
-      top: 60%;
-      height:40% ;
-      width: 68%;
+      top: 70%;
+      height:38% ;
+      width: 76%;
       right: 5%;
     }
     #fp {
@@ -126,10 +126,11 @@
       position: absolute;
       font-size: 3vw;
       left:7%;
+      right: 5%;
     }
     #p1 {
       top: 4%;
-      font-size: 3vw;
+      font-size: 5vw;
       font-weight: bolder;
     }
     #cat{
@@ -147,6 +148,10 @@
       position: absolute;
       width: 20%;
       right: 0%;}
+    #mingyan2{
+      color: mediumpurple;
+      font-size: 4vw;
+    }
   }
   li{
     font-family: FZYaoti;

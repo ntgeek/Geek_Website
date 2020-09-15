@@ -2,10 +2,9 @@
   <div id="rengong">
     <div id="fz2">
       <div id="pro2">
-        <span style="font-size:3.5vw">AI/算法(AI/AIGO)</span><br>
-        <span>人工智能站在了风口，机器学习和深度学习
-是它的分支，是团队仍在探索的方向</span>
-        <p style="font-size:2.5vw">"路漫漫其修远兮，非大毅力者不能"</p>
+        <span  id="a2">AI/算法(AI/AIGO)</span><br>
+        <p id="a3">"路漫漫其修远兮，非大毅力者不能"</p><br>
+        <span>人工智能站在了风口，机器学习和深度学习是它的分支，是团队仍在探索的方向</span><br>
         <span>• AI是研究、开发用于模拟、延伸和扩展人工
 智能的理论、方法、技术及应用系统的一
 门新的技术科学
@@ -33,6 +32,9 @@
 
 <style scoped>
   @media screen and (min-width:769px) {
+    #a2{
+      font-size: 3.5vw;
+    }
     #ai2{
       display: none;
     }
@@ -115,8 +117,8 @@
     #ai{display: none}
     #ai2{
       position: absolute;
-      top: 60%;
-      height:50% ;
+      top: 67%;
+      height:43% ;
       width: 57%;
       right: 5%;
     }
@@ -124,7 +126,7 @@
       top: 5%;
       font-family: FZYaoti;
       position: absolute;
-      left:7%;
+      left:7%;      right: 5%;
     }
     #pro2 {
       top: 5%;
@@ -141,6 +143,13 @@
       border: 1vw solid lightseagreen;
       border-radius: 5vw;
       z-index: 10;
+    }
+    #a3{
+      font-size: 5vw;
+      color: lightgreen;
+    }
+    #a2{
+      font-size: 5vw;
     }
   }
 </style>

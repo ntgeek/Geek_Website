@@ -243,6 +243,7 @@
       top: 22vw;
       font-size: 4vw;
     }
+
     #cf6 {
       position: absolute;
       top: 26.5vw;
@@ -268,58 +269,69 @@
 
     #uscontact {
       position: absolute;
-      width: 50%;
+      width: 40%;
       top: 590%;
-      left: 25%;
+      left: 30%;
     }
 
     #rights {
       position: absolute;
       right: 0%;
-      top: 600%;
+      top: 594%;
       width: 75%;
-      height: 90%;
+      height: 72%;
     }
 
     #cf {
       position: absolute;
       top: 0vw;
-      font-size: 4vw;
+      font-size: 6vw;
     }
 
     #cf2 {
       position: absolute;
       top: 5.5vw;
-      font-size: 4vw;
+      font-size: 6vw;
     }
 
     #cf3 {
       position: absolute;
       top: 11vw;
-      font-size: 4vw;
+      font-size: 6vw;
+    }
+    #cf31 {
+      position: absolute;
+      top: 1vw;
+      font-size: 6vw;
     }
 
     #cf4 {
       position: absolute;
       top: 16.5vw;
-      font-size: 4vw;
+      font-size: 6vw;
     }
 
     #cf5 {
       position: absolute;
       top: 22vw;
-      font-size: 4vw;
+      font-size: 6vw;
+    }
+
+    #cf51 {
+      position: absolute;
+      top: 15vw;
+      font-size: 6vw;
     }
     #cf6 {
       position: absolute;
       top: 26.5vw;
-      font-size: 4vw;
+      font-size: 6vw;
     }
     #wayofcontact {
       left: 13%;
       width: 100%;
       font-family: FZYaoti;
-      top: 640%;
+      top: 621%;
       position: absolute;
       color: aquamarine;
     }

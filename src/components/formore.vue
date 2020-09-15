@@ -58,7 +58,7 @@
     }
     #bi2{
       position: absolute;
-      top: 710%;
+      top: 675%;
       width: 100%;
       right: 0%;
     }

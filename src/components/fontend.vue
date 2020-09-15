@@ -3,7 +3,7 @@
     <div id="bold1">
       <div  id="fz1">
         <span id="fq1">"前后端开发（Front&Back)"</span><br>
-        <span id="mingyan1">“Stay Hungry,Stay Foolish” 不断进步,锐意创新</span>
+        <p  id="we1">“Stay Hungry,Stay Foolish” </p>
         <br>
         <div  id="fz2">
           <span id="we">我们这里有各种各样的程序猿</span> <br>
@@ -75,14 +75,11 @@
 
     }
 
-    #mingyan1{
-      font-size: 2.5vw;
-      color:#7BD3FF;
-    }
     p{
       color:#7BD3FF;
       font-size: 2vw;
     }
+    span{font-size: 2vw}
   }
   @media (max-width: 768px) and (min-width: 480px) {
     #monkey{display: none}
@@ -119,9 +116,6 @@
     }
   }
   @media (max-width: 479px) {
-    #xiangjiao{
-      display: none;
-    }
     #bold1{
       top:108%;
       width: 80%;
@@ -133,23 +127,20 @@
       z-index: 10;
     }
     #fz2{
-      font-size:2.8vw;
+      font-size:5vw;
     }
     #fq1{
-      font-size: 2.8vw;
+      font-size: 5vw;
       font-weight: bolder;
     }
-    p{
-      color: aqua;
-      font-size: 2.8vw;
-    }
+
     #monkey{display: none}
     #houzi{
       position: absolute;
       right: 7%;
-      top: 60%;
+      top: 65%;
       width: 60%;
-      height:35%;
+      height:30%;
       z-index: 0;
     }
     #fz1{
@@ -158,12 +149,20 @@
       left:7%;
       font-family: FZYaoti;
       z-index: 10;
+      right: 5%;
     }
     #xiangjiao{
       position: absolute;
       width: 20%;
       right: 0%;
     }
+    #we1{
+      color: dodgerblue;
+      font-size: 5vw;
+    }
+span{
+  font-size: 3.8vw;
+}
   }
 
   span{
@@ -171,10 +170,8 @@
     width:auto;
     display:block;
     white-space:pre-wrap;
-
     word-wrap : break-word ;
     overflow: hidden ;
-    font-size: 2vw;
   }
 
 </style>

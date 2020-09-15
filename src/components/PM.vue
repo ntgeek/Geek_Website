@@ -6,10 +6,10 @@
       <img id="chap"  src="http://img.nt-geek.club/王冠.png">
       <div id="lif">
         <span id="safe">安全攻城狮(Safety)</span><br>
+        <span id="pm2">我们需要的不是脚本小子，而是对底层
+原理了如指掌。</span><br>
         <span>主要涉及网络攻防、漏洞挖掘，能够代表
 团队参加CTF安全赛事。</span>
-        <P>我们需要的不是脚本小子，而是对底层
-          原理了如指掌。</P>
         <span>• 互联网安全从其本质上来讲其实就是
 互联网上的信息安全
 • 网络安全攻城狮是拥有扎实基础的Super Hacker,同时具有强大的自学能力。
@@ -29,6 +29,7 @@
 
 <style scoped>
   @media screen and (min-width:769px) {
+    #pm2{color: cornflowerblue}
     #chap{
       display: none;
     }
@@ -49,12 +50,13 @@
     }
     #lif{
       top:380%;
-      font-size: 2.3vw;
+      font-size: 1.5vw;
       font-family: FZYaoti;
       position: absolute;
       left: 52%;
       right: 5%;
     }
+    span{font-size: 2vw}
   }
   @media (max-width: 768px) and (min-width:480px ) {
     #lion {
@@ -96,6 +98,9 @@
     }
   }
   @media (max-width: 479px){
+    #safe{
+      font-size: 5vw;
+    }
     #lion {
       display: none
     }
@@ -105,9 +110,9 @@
       right: 0%;
     }
     #shizi2 {
-      top: 58%;
+      top: 68%;
       position: absolute;
-      height: 35%;
+      height: 27%;
       width: 58%;
       right: 5%;
     }
@@ -115,7 +120,8 @@
       top:5%;
       font-family: FZYaoti;
       position: absolute;
-      left: 5%;
+      left: 6%;
+      right: 5%;
     }
 
     #lionf {
@@ -132,6 +138,10 @@
       border: 1vw solid yellowgreen;
       border-radius: 5vw;
       z-index: 10;
+    }
+    #pm2{
+      font-size: 4.3vw;
+      color: #497465;
     }
   }
 
