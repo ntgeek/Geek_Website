@@ -42,7 +42,7 @@
     .bw{background-color: white}
     #first {
       background: url("http://img.nt-geek.club/首页背景.png");
-      position: absolute;
+      position: relative;
       background-size: 100% 100%;
       left: 5%;
       width: 90%;

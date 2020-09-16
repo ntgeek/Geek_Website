@@ -24,7 +24,7 @@
 
   @media screen and (min-width:769px) {
     #geek{
-      position: absolute;
+      position: relative;
       top: 13%;
       left: 35%;
       width: 30%;
@@ -34,7 +34,7 @@
     }
 
     #fontz1 {
-      position: absolute;
+      position: relative;
       font-family: STHupo;
       left: 3vw;
       color: black;
@@ -42,7 +42,7 @@
       transition: all 0.6s;
     }
     #fontz2 {
-      position: absolute;
+      position: relative;
       font-family: STHupo;
       right: 12vw;
       font-weight: bolder;
@@ -51,7 +51,7 @@
 
     #fontz3 {
       font-family: STHupo;
-      position: absolute;
+      position: relative;
       right: 3vw;
       font-weight: bolder;
       transition: all 0.6s;

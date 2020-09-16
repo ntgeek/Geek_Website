@@ -59,10 +59,11 @@
     methods:{
       btn1(){
         var value=document.getElementById("yinshen1").style.display;
-        if(value="none"){document.getElementById("yinshen1").style.display="block"}
-        else{document.getElementById("yinshen1").style.display="none";}
+        if(value=="none"){document.getElementById("yinshen1").style.display="block";}
+        else if(value=="block"){document.getElementById("yinshen1").style.display="none";}
       }
-  }}
+  }
+  }
 </script>
 
 <style>
@@ -107,5 +108,9 @@
       width: 100%;
       right: 0%;
     }
+  }
+  .button{
+      position: relative;
+
   }
 </style>

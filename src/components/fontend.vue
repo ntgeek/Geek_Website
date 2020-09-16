@@ -21,15 +21,6 @@
 </template>
 
 <script>
-  function code(text){
-    let i =0;
-    setInterval(function(){
-      i++;
-      window.history.pushState(null,null, text.substr(0,i))
-
-    },100)
-  }
-  code('加入GEEK组，和我们一起做追月亮的人')
 </script>
 
 <style>
