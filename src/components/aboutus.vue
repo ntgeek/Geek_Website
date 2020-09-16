@@ -1,11 +1,6 @@
 <template>
   <div  id="fm">
     <img id="about" src="http://img.nt-geek.club/关于.png">
-
-
-
-
-
     <div  id="f2">
       <img id="speech" src="http://img.nt-geek.club/演讲.png">
       <span id="fm2">技术汇报。每周我们会举行一次技术例会，用来汇报我们的学习内容，供成员之间交流学习。</span>

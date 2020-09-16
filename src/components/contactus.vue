@@ -5,12 +5,10 @@
   <img id="uscontact" src="http://img.nt-geek.club/联系我们.png">
   <img id="yezi"  src="http://img.nt-geek.club/yezi1.png">
   <div id="wayofcontact">
-    <span id="cf31">新思路官网：</span>
-    <a id="cf3" href="https://www.newthread.com">https://www.newthread.com</a>
-    <span id="cf4">QQ迎新群：</span>
-    <span id="cf51">新思路官网：</span>
-    <a id="cf5" href="https://github.com/ntgeek">https://github.com/ntgeek</a>
-    <span id="cf6">指导老师:帖军</span>
+    <a id="cf3" href="https://www.newthread.com"  title="新思路官网">新思路官网</a>
+    <a id="cf4" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=JcPNggGSJ2EVnQdBjpCyEoVCgePRJI-q&jump_from=webapi" alt="Geek组迎新群" title="群号:315507378">加入QQ群</a>
+  <.\.
+    <a id="cf5" href="https://github.com/ntgeek" TITLE="Geek组Github">Github</a>
   </div>
 </div>
 </template>
@@ -27,6 +25,10 @@
       position: absolute;
       width: 100%;
       top: 525%;
+    }
+    #cf3{
+      position: absolute;
+
     }
 
     #lefts {
@@ -66,59 +68,36 @@
       left: -4vw;
       color: rgb(60, 116, 97);
     }
-
-    #cf {
+    #cf3{
       position: absolute;
-      top: 0vw;
-      left: 25vw;
+      top: 1vw;
+      left: 35%;
     }
-
-    #cf2 {
-      position: absolute;
-      top: 5.5vw;
-      left: 18vw;
-    }
-
-    #cf31 {
-      position: absolute;
-      top: 10vw;
-      left: 20vw;
-      text-decoration: none;
-    }
-
-    #cf3 {
-      position: absolute;
-      top: 0.5vw;
-      left: 33vw;
-      font-size: 1.5vw;
-    }
-
     #cf4 {
       position: absolute;
       top: 5vw;
-      left: 20vw;
-    }
-
-    #cf51 {
-      position: absolute;
-      top: 10vw;
-      left: 20vw;
-      text-decoration: none;
+      left: 36%;
     }
 
     #cf5 {
       position: absolute;
-      top: 10.5vw;
-      left: 33vw;
-      font-size: 1.5vw;
+      top: 9.2vw;
+      left: 38%;
     }
 
-    #cf6 {
-      position: absolute;
-      top: 15vw;
-      left: 20vw;
-    }
-  }
+a{
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 2.5vw;
+  margin: 30px 3px;
+  background-color: #8dc6ff;
+  font-size: 2vw;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  background-color: bisque;
+}
+}
 
 
   @media (max-width: 768px) and (min-width:480px ) {

@@ -45,7 +45,7 @@
       top:5%;
       right: 8%;
       width: 34vw;
-      height: 97%;
+      height: 85%;
       z-index: 0;
     }
     #we{
@@ -111,7 +111,7 @@
       right: 0%;
       top: 60%;
       width: 60%;
-      height:35%;
+      height:30%;
       z-index: 0;
     }
   }
