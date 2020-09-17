@@ -7,7 +7,6 @@
   <div id="wayofcontact">
     <a id="cf3" href="https://www.newthread.com"  title="新思路官网">新思路官网</a>
     <a id="cf4" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=JcPNggGSJ2EVnQdBjpCyEoVCgePRJI-q&jump_from=webapi" alt="Geek组迎新群" title="群号:315507378">加入QQ群</a>
-  <.\.
     <a id="cf5" href="https://github.com/ntgeek" TITLE="Geek组Github">Github</a>
   </div>
 </div>

@@ -44,11 +44,11 @@
       background: url("http://img.nt-geek.club/首页背景.png");
       position: relative;
       background-size: 100% 100%;
-      left: 5%;
       width: 90%;
       height: 70vw;
       background-color: white;
       margin: 0 auto;
+
     }
     #second{
       background-color: white;

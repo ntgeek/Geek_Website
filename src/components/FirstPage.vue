@@ -1,5 +1,5 @@
 <template>
-  <div id="first1" class="inner">
+  <div id="first1" >
   <img src="http://img.nt-geek.club/geek.png" id="geek">
   <img src="http://img.nt-geek.club/Geek1.png"  id="geek1">
   <img src="http://img.nt-geek.club/anniu.png"  id="anniu">
@@ -23,6 +23,12 @@
 <style scoped>
 
   @media screen and (min-width:769px) {
+    #first1{
+      position: absolute;
+      top: 0%;
+      width: 100%;
+      height: 60vw;
+    }
     #geek{
       position: relative;
       top: 13%;
@@ -36,7 +42,6 @@
     #fontz1 {
       position: relative;
       font-family: STHupo;
-      left: 3vw;
       color: black;
       font-weight: bolder;
       transition: all 0.6s;
@@ -65,9 +70,9 @@
       border: none;
       padding: 0;
       margin: 0;
-      text-align: center;
-      text-decoration: none;
+      text-align:center;
       display: inline-block;
+      text-decoration: none;
     }
 
     button:hover {

@@ -40,12 +40,12 @@
       <div id="yinshen7" style="display: none">我们希望你有很强的自学能力，同时关注新事物、新技术，喜欢挑战，乐观开朗，逻辑性强，善于和各种文化的人合作。
         “每个人都可以做自己想做的事情，每个人的方向不一样。如果你想做某个产品，或者你有一个不错的 idea，那么就可以找志同道合的人一起合作。”
       </div>
-      <button v-on:click="btn1()" type="button">+</button>
-      <button>+</button>
-      <button>+</button>
-      <button>+</button>
-      <button>+</button>
-      <button>+</button>
+      <button v-on:click="btn1()" type="button" id="b1">+</button>
+      <button v-on:click="btn2()" id="b2">+</button>
+      <button v-on:click="btn3()" id="b3">+</button>
+      <button v-on:click="btn4()" id="b4">+</button>
+      <button v-on:click="btn5()" id="b5">+</button>
+      <button v-on:click="btn6()" id="b6">+</button>
     </div>
     <div></div>
     <span id="mf4"></span>
@@ -61,8 +61,32 @@
         var value=document.getElementById("yinshen1").style.display;
         if(value=="none"){document.getElementById("yinshen1").style.display="block";}
         else if(value=="block"){document.getElementById("yinshen1").style.display="none";}
+      },
+      btn2(){
+        var value=document.getElementById("yinshen2").style.display;
+        if(value=="none"){document.getElementById("yinshen2").style.display="block";}
+        else if(value=="block"){document.getElementById("yinshen2").style.display="none";}
+      },
+      btn3(){
+        var value=document.getElementById("yinshen3").style.display;
+        if(value=="none"){document.getElementById("yinshen3").style.display="block";}
+        else if(value=="block"){document.getElementById("yinshen3").style.display="none";}
+      },
+      btn4(){
+        var value=document.getElementById("yinshen4").style.display;
+        if(value=="none"){document.getElementById("yinshen4").style.display="block";}
+        else if(value=="block"){document.getElementById("yinshen4").style.display="none";}
+      },
+      btn5() {var value=document.getElementById("yinshen5").style.display;
+      if(value=="none"){document.getElementById("yinshen5").style.display="block";}
+  else if(value=="block"){document.getElementById("yinshen5").style.display="none";}
+  },
+      btn6(){
+        var value=document.getElementById("yinshen6").style.display;
+        if(value=="none"){document.getElementById("yinshen6").style.display="block";}
+        else if(value=="block"){document.getElementById("yinshen6").style.display="none";}
       }
-  }
+    }
   }
 </script>
 
@@ -85,6 +109,16 @@
       width: 91.5%;
       left: 3%;
       right: 3%;
+    }
+    button{
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration:none;
+      outline: none;
+      font-size: 3vw;
+      background-color: transparent;
+      border-style: none;
     }
   }
   @media (max-width: 768px) and (min-width: 480px){
