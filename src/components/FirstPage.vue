@@ -1,16 +1,16 @@
 <template>
-  <div id="first1" >
+  <div id="first1" class="inner">
   <img src="http://img.nt-geek.club/geek.png" id="geek">
   <img src="http://img.nt-geek.club/Geek1.png"  id="geek1">
   <img src="http://img.nt-geek.club/anniu.png"  id="anniu">
     <template>
-      <button id="fontz1" title="新思路官网" onclick="location.href='https://new-thread.com/'" >New thread</button>
+      <span id="fontz1" title="新思路官网" onclick="location.href='https://new-thread.com/'" >New thread</span>
     </template>
     <template>
-      <button id="fontz2">About us</button>
+      <span id="fontz2">About us</span>
     </template>
     <template>
-      <button id="fontz3">Contact</button>
+      <span id="fontz3">Contact</span>
     </template>
     <router-view></router-view>
   </div>
@@ -23,14 +23,8 @@
 <style scoped>
 
   @media screen and (min-width:769px) {
-    #first1{
-      position: absolute;
-      top: 0%;
-      width: 100%;
-      height: 60vw;
-    }
     #geek{
-      position: relative;
+      position: absolute;
       top: 13%;
       left: 35%;
       width: 30%;
@@ -40,23 +34,32 @@
     }
 
     #fontz1 {
-      position: relative;
+      top:1.5%;
+      position: absolute;
       font-family: STHupo;
+      left: 3vw;
+      font-size: 1.8vw;
       color: black;
       font-weight: bolder;
       transition: all 0.6s;
     }
     #fontz2 {
-      position: relative;
+      top:1.5%;
+      color: black;
+      position: absolute;
       font-family: STHupo;
       right: 12vw;
+      font-size: 1.8vw;
       font-weight: bolder;
       transition: all 0.6s;
     }
 
     #fontz3 {
+      top:1.5%;
+      color: black;
       font-family: STHupo;
-      position: relative;
+      font-size: 1.8vw;
+      position: absolute;
       right: 3vw;
       font-weight: bolder;
       transition: all 0.6s;
@@ -70,9 +73,9 @@
       border: none;
       padding: 0;
       margin: 0;
-      text-align:center;
-      display: inline-block;
+      text-align: center;
       text-decoration: none;
+      display: inline-block;
     }
 
     button:hover {

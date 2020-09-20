@@ -48,7 +48,6 @@
       height: 70vw;
       background-color: white;
       margin: 0 auto;
-
     }
     #second{
       background-color: white;
