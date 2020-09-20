@@ -27,9 +27,7 @@
 </template>
 
 <script>
-  export default {
-    name: "About us"
-  }
+
 </script>
 
 <style scoped>

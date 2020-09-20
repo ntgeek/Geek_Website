@@ -16,7 +16,7 @@
   </span>
   </div>
   <div id="wayofcontact" >
-    <a id="cf4" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=JcPNggGSJ2EVnQdBjpCyEoVCgePRJI-q&jump_from=webapi" alt="Geek组迎新群" title="群号:315507378">加入QQ群</a>
+    <a id="cf4" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=_MXIavH-bKiRMl5LvZHVKnIjjhuHDNGC&jump_from=webapi" alt="Geek组迎新群" title="群号:1050679488">加入QQ群</a>
     <a id="cf5" href="https://github.com/ntgeek" TITLE="Geek组Github">Github</a>
     <button v-on:click="bn1()" title="newthread-geek@outlook.com" id="yx">发送email</button>
   </div>
@@ -94,33 +94,79 @@
     }
     #cf4 {
       position: absolute;
-      top: 14vw;
+      top: 15.7vw;
+      width: 11vw;
+      height:3.2vw;
       left: 25%;
-      color: mediumpurple;
+      color: rgb(69, 100, 90);
+      font-size: 2vw;
+      margin: 0;
+      padding: 0;
+      border-radius: 1vw;
+      border-color: rgb(69, 100, 90);
+      -webkit-transition-duration: 0.4s;
+      outline: none;
+      transition-duration: 0.4s;
+      border-width: 2vw;
+      background-color: white;
+      box-shadow: none;
+    }
+    #cf4:hover{
+      color:white;
+      background-color:rgb(69, 100, 90);
     }
 
     #cf5 {
       position: absolute;
-      top: 14vw;
+      top: 15.7vw;
       left: 55%;
-      color: mediumpurple;
+      width: 10vw;
+      height:2.5vw;
+      color: rgb(69, 100, 90);
+      font-size: 2vw;
+      margin: 0;
+      padding: 0;
+      border-radius: 1vw;
+      border-color: rgb(69, 100, 90);
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      outline: none;
+      border-width: 0.2vw;
+      background-color: white;
+      box-shadow: none;
+    }
+    #cf5:hover{
+      color:white;
+      background-color:rgb(69, 100, 90);
+      border: none;
     }
     #yx{
-      margin: 30px 3px;
-      font-size: 2vw;
-      letter-spacing: 2px;
-      border-radius: 40px;
-      outline: none;
-      text-decoration: none;
-      background: transparent;
-      position: absolute;
-      top: 14vw;
-      left: 38%;
       font-family: FZYaoti;
-      color: mediumpurple;
+      position: absolute;
+      top: 15.7vw;
+      left: 40%;
+      width: 10vw;
+      height:2.5vw;
+      color: rgb(69, 100, 90);
+      font-size: 2vw;
+      margin: 0;
+      padding: 0;
+      border-radius: 1vw;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      background-color: white;
+      box-shadow: none;
+      text-decoration: none;
+      outline-color: white;
+      border: none;
     }
-
+   #yx:hover{
+      color:white;
+      background-color:rgb(69, 100, 90);
+      border: none;
+    }
 a{
+  position: absolute;
   text-decoration: none;
   display: inline-block;
   text-align: center;
@@ -265,7 +311,6 @@ a{
     a{
       text-decoration: none;
       display: inline-block;
-      text-align: center;
       line-height: 2.5vw;
       margin: 30px 3px;
       background-color: white;

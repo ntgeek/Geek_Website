@@ -96,7 +96,6 @@
 
 <style scoped>
   @media (min-width:769px){
-
     .a{
       text-align: center;
       font-size: 1.4vw;

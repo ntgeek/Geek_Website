@@ -45,7 +45,7 @@
       position: relative;
       background-size: 100% 100%;
       width: 90%;
-      height: 70vw;
+      height: 65vw;
       background-color: white;
       margin: 0 auto;
     }
@@ -56,7 +56,7 @@
     @media (max-width: 768px) and (min-width:480px ) {
       #first {
         background: url("http://img.nt-geek.club/shouye.png");
-        position: absolute;
+        position: relative;
         background-size: 100% 100%;
         height: 60vw;
       }
