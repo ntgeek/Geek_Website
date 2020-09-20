@@ -24,19 +24,14 @@
 </template>
 
 <script>
+  import Copy from 'copy-util';
   export default {
     name: "contactus",
     methods: {
       bn1() {
         var value = document.getElementById("yx").title;
-        window.clipboardData.setData("text", value);
-        if (window.clipboardData.getData('text') == "") {
-          if (i == 1) {
-            alert("复制失败，请手动Ctrl+C快捷键复制！");
-          } else {
-            alert("复制成功,已经成功粘贴到剪切板上");
-          }
-        }
+        Copy(value);
+        alert("复制成功")
       }
     }
   }
@@ -138,58 +133,6 @@ a{
 }
 }
 
-
-  @media (max-width: 768px) and (min-width:480px ) {
-    #lefts {
-      display: none;
-    }
-
-    #yezi {
-      display: none;
-    }
-
-    #uscontact {
-      position: absolute;
-      width: 50%;
-      top: 610%;
-      left: 25%;
-    }
-
-    #rights {
-      position: absolute;
-      right: 0%;
-      top: 620%;
-      width: 75%;
-      height: 90%;
-    }
-
-    #cf3 {
-      position: absolute;
-      top: 11vw;
-      font-size: 4vw;
-    }
-
-    #cf4 {
-      position: absolute;
-      top: 16.5vw;
-      font-size: 4vw;
-    }
-
-    #cf5 {
-      position: absolute;
-      top: 22vw;
-      font-size: 4vw;
-    }
-
-    #wayofcontact {
-      left: 13%;
-      width: 100%;
-      font-family: FZYaoti;
-      top: 653%;
-      position: absolute;
-      color: rgb(73, 116, 101);
-    }
-  }
   @media (max-width: 768px) and (min-width: 480px ) {
     #lefts {
       display: none;
@@ -214,11 +157,6 @@ a{
       height: 90%;
     }
 
-    #cf3 {
-      position: absolute;
-      top: 11vw;
-      font-size: 4vw;
-    }
 
     #cf4 {
       position: absolute;
@@ -242,6 +180,37 @@ a{
     }
   }
   @media (max-width: 479px){
+    #contact1{
+      position: absolute;
+      top:13vw;
+    }
+    #cf4 {
+      position: absolute;
+      top: 14vw;
+      left: 25%;
+      color: mediumpurple;
+    }
+
+    #cf5 {
+      position: absolute;
+      top: 14vw;
+      left: 55%;
+      color: mediumpurple;
+    }
+    #yx{
+      margin: 30px 3px;
+      font-size: 2vw;
+      letter-spacing: 2px;
+      border-radius: 40px;
+      outline: none;
+      text-decoration: none;
+      background: transparent;
+      position: absolute;
+      top: 14vw;
+      left: 38%;
+      font-family: FZYaoti;
+      color: mediumpurple;
+    }
     #lefts {
       display: none;
     }
@@ -265,29 +234,6 @@ a{
       height: 72%;
     }
 
-    #cf {
-      position: absolute;
-      top: 0vw;
-      font-size: 6vw;
-    }
-
-    #cf2 {
-      position: absolute;
-      top: 5.5vw;
-      font-size: 6vw;
-    }
-
-    #cf3 {
-      position: absolute;
-      top: 11vw;
-      font-size: 6vw;
-    }
-    #cf31 {
-      position: absolute;
-      top: 1vw;
-      font-size: 6vw;
-    }
-
     #cf4 {
       position: absolute;
       top: 16.5vw;
@@ -300,16 +246,6 @@ a{
       font-size: 6vw;
     }
 
-    #cf51 {
-      position: absolute;
-      top: 15vw;
-      font-size: 6vw;
-    }
-    #cf6 {
-      position: absolute;
-      top: 26.5vw;
-      font-size: 6vw;
-    }
     #wayofcontact {
       left: 13%;
       width: 100%;
@@ -317,6 +253,27 @@ a{
       top: 621%;
       position: absolute;
       color: aquamarine;
+    }
+    .b{
+      position: relative;
+      left: 32%;
+      font-size: 1.5vw;
+    }
+
+    #contact1{
+      position: absolute;
+      top:13vw;
+    }
+    a{
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+      line-height: 2.5vw;
+      margin: 30px 3px;
+      background-color: white;
+      font-size: 2vw;
+      letter-spacing: 2px;
+      border-radius: 40px;
     }
   }
 </style>

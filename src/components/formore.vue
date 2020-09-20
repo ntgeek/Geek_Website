@@ -93,7 +93,9 @@
 
 <style scoped>
   @media (min-width:769px){
+
     .a{
+      text-align: center;
       font-size: 1.4vw;
       font-family: FZYaoti;
     }
@@ -105,7 +107,7 @@
       text-transform: uppercase;
       font-weight: bold;
       font-size: 2vw;
-      padding: 1vw 5vw;
+      padding: 1vw 2vw;
       position: relative;
     }
     button:before {
@@ -130,7 +132,7 @@
     }
     #question{
       position: absolute;
-      left: 20%;
+      left: 18%;
       top: 13vw;
       font-size: 2vw;
     }
@@ -156,9 +158,6 @@
       top: 710%;
       width: 100%;
       right: 0%;
-    }
-    .a{
-      font-size: 0.1vw;
     }
   }
   @media(max-width: 479px){
