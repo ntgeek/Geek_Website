@@ -2,7 +2,7 @@
   <div id="fontend" class="bm">
     <div id="bold1">
       <div  id="fz1">
-        <span id="fq1">"前后端开发（Front&Back)"</span><br>
+        <span id="fq1">"前后端开发(Front&Back)"</span><br>
         <p  id="we1">“Stay Hungry,Stay Foolish” </p>
         <br>
         <div  id="fz2">

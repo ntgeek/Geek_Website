@@ -4,30 +4,60 @@
   <img id="rights"  SRC="http://img.nt-geek.club/右边的树.png">
   <img id="uscontact" src="http://img.nt-geek.club/联系我们.png">
   <img id="yezi"  src="http://img.nt-geek.club/yezi1.png">
+  <div id="contact1">
+  <span class="b">-热爱计算机，具有geek精神，喜欢DIY，动手能力较强</span>
+  <span class="b">-有编程/算法/硬件基础为佳(有作品可附上)</span>
+  <span class="b">-有足够的空余时间</span>
+  <span class="b">-热爱思考，对事物有自己的见解</span><br>
+  <span class="b">ps:非新思路统招只有通过发送邮件自我介绍后，收到邮件回执后才会被允许进群<br>
+    在读学生,都可邮件到newthread_geek@outlook.com报名加入.<br>
+    (信中需备注个人基本信息以及意向方向.)
+    注:此招新活动为长期招新
+  </span>
+  </div>
   <div id="wayofcontact">
-    <a id="cf3" href="https://www.newthread.com"  title="新思路官网">新思路官网</a>
     <a id="cf4" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=JcPNggGSJ2EVnQdBjpCyEoVCgePRJI-q&jump_from=webapi" alt="Geek组迎新群" title="群号:315507378">加入QQ群</a>
     <a id="cf5" href="https://github.com/ntgeek" TITLE="Geek组Github">Github</a>
+    <button v-on:click="bn1()" title="newthread-geek@outlook.com" id="yx">发送email</button>
   </div>
 </div>
 </template>
 
 <script>
   export default {
-    name: "contactus"
+    name: "contactus",
+    methods: {
+      bn1() {
+        var value = document.getElementById("yx").title;
+        window.clipboardData.setData("text", value);
+        if (window.clipboardData.getData('text') == "") {
+          if (i == 1) {
+            alert("复制失败，请手动Ctrl+C快捷键复制！");
+          } else {
+            alert("复制成功,已经成功粘贴到剪切板上");
+          }
+        }
+      }
+    }
   }
 </script>
 
 <style scoped>
   @media (min-width:769px) {
+    .b{
+      position: relative;
+      left: 32%;
+      font-size: 1.5vw;
+    }
+
+    #contact1{
+      position: absolute;
+      top:13vw;
+    }
     #contact {
       position: absolute;
       width: 100%;
       top: 525%;
-    }
-    #cf3{
-      position: absolute;
-
     }
 
     #lefts {
@@ -67,21 +97,32 @@
       left: -4vw;
       color: rgb(60, 116, 97);
     }
-    #cf3{
-      position: absolute;
-      top: 1vw;
-      left: 35%;
-    }
     #cf4 {
       position: absolute;
-      top: 5vw;
-      left: 36%;
+      top: 14vw;
+      left: 25%;
+      color: mediumpurple;
     }
 
     #cf5 {
       position: absolute;
-      top: 9.2vw;
+      top: 14vw;
+      left: 55%;
+      color: mediumpurple;
+    }
+    #yx{
+      margin: 30px 3px;
+      font-size: 2vw;
+      letter-spacing: 2px;
+      border-radius: 40px;
+      outline: none;
+      text-decoration: none;
+      background: transparent;
+      position: absolute;
+      top: 14vw;
       left: 38%;
+      font-family: FZYaoti;
+      color: mediumpurple;
     }
 
 a{
@@ -90,11 +131,10 @@ a{
   text-align: center;
   line-height: 2.5vw;
   margin: 30px 3px;
-  background-color: #8dc6ff;
+  background-color: white;
   font-size: 2vw;
   letter-spacing: 2px;
   border-radius: 40px;
-  background-color: bisque;
 }
 }
 
