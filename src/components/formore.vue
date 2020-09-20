@@ -97,6 +97,7 @@
       font-size: 1.5vw;
     }
     button{
+      font-family: FZYaoti;
       background: transparent;
       border: 0;
       border-radius: 0;
