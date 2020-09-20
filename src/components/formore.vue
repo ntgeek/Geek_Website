@@ -86,6 +86,9 @@
         var value=document.getElementById("yinshen7").style.display;
         if(value=="none"){document.getElementById("yinshen7").style.display="block";}
         else if(value=="block"){document.getElementById("yinshen7").style.display="none";}
+      },
+      change(){
+
       }
     }
   }
@@ -161,11 +164,10 @@
     }
   }
   @media(max-width: 479px){
-
     .a{
-      font-size: 0.1vw;
-      font-family:FZYaoti;
-      left: 20%;
+      text-align: center;
+      font-size: 1.4vw;
+      font-family: FZYaoti;
     }
     button{
       background: transparent;
@@ -173,9 +175,10 @@
       border-radius: 0;
       text-transform: uppercase;
       font-weight: bold;
-      font-size: 2vw;
+      font-size: 2.4vw;
       padding: 1vw 5vw;
       position: relative;
+      line-height: 5vw;
     }
     button:before {
       transition: all 0.6s cubic-bezier(0.7, -0.2, 0.2, 1);
@@ -208,9 +211,9 @@
     }
     #question{
       position: absolute;
-      left: 10%;
+      left: 13%;
       top: 1030vw;
-      font-size: 10vw;
+      font-size: 2vw;
     }
   }
 </style>

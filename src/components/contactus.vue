@@ -15,7 +15,7 @@
     注:此招新活动为长期招新
   </span>
   </div>
-  <div id="wayofcontact">
+  <div id="wayofcontact" >
     <a id="cf4" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=JcPNggGSJ2EVnQdBjpCyEoVCgePRJI-q&jump_from=webapi" alt="Geek组迎新群" title="群号:315507378">加入QQ群</a>
     <a id="cf5" href="https://github.com/ntgeek" TITLE="Geek组Github">Github</a>
     <button v-on:click="bn1()" title="newthread-geek@outlook.com" id="yx">发送email</button>
@@ -181,8 +181,10 @@ a{
   }
   @media (max-width: 479px){
     #contact1{
+      display: none;
       position: absolute;
-      top:13vw;
+      top: 920vw;
+      left: 10%;
     }
     #cf4 {
       position: absolute;
@@ -253,17 +255,13 @@ a{
       top: 621%;
       position: absolute;
       color: aquamarine;
+      display: none;
     }
     .b{
       position: relative;
-      left: 32%;
       font-size: 1.5vw;
     }
 
-    #contact1{
-      position: absolute;
-      top:13vw;
-    }
     a{
       text-decoration: none;
       display: inline-block;
