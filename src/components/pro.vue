@@ -144,7 +144,6 @@
       z-index: 10;
     }
     #heiban{
-      display: none;
       position: absolute;
       width: 20%;
       right: 0%;}

@@ -123,18 +123,6 @@ a{
       height: 90%;
     }
 
-    #cf {
-      position: absolute;
-      top: 0vw;
-      font-size: 4vw;
-    }
-
-    #cf2 {
-      position: absolute;
-      top: 5.5vw;
-      font-size: 4vw;
-    }
-
     #cf3 {
       position: absolute;
       top: 11vw;
@@ -150,12 +138,6 @@ a{
     #cf5 {
       position: absolute;
       top: 22vw;
-      font-size: 4vw;
-    }
-
-    #cf6 {
-      position: absolute;
-      top: 26.5vw;
       font-size: 4vw;
     }
 
@@ -192,18 +174,6 @@ a{
       height: 90%;
     }
 
-    #cf {
-      position: absolute;
-      top: 0vw;
-      font-size: 4vw;
-    }
-
-    #cf2 {
-      position: absolute;
-      top: 5.5vw;
-      font-size: 4vw;
-    }
-
     #cf3 {
       position: absolute;
       top: 11vw;
@@ -222,11 +192,6 @@ a{
       font-size: 4vw;
     }
 
-    #cf6 {
-      position: absolute;
-      top: 26.5vw;
-      font-size: 4vw;
-    }
     #wayofcontact {
       left: 13%;
       width: 100%;

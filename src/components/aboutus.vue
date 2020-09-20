@@ -16,8 +16,6 @@
       <span id="fm3">多元化是我们的特色。在这里，你可以拥有多种方向选择，前后端、安全、AI、算法产品等。</span>
     </div>
 
-
-
     <img id="lefts" src="http://img.nt-geek.club/左上.png">
     <img id="rights" src="http://img.nt-geek.club/youshang.png">
     <img id="leftx" src="http://img.nt-geek.club/左下.png">

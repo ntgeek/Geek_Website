@@ -24,7 +24,7 @@
       <DIV id="yinshen4"class="a" style="display: none">在考核期间每人会拥有一位'长者'带你入门，学习技术与知识，交流经验与想法。完成每周的新人任务后再进行一次考核筛选后就可以成为Geek组正式成员啦！
         在考核期必须满足每周30个小时在实验室哦,所以考核期也不可以懈怠哦！
       </DIV>
-      <BUTTON v-on:click="btn5()"> <LI>5.加入Geek组的要求比较严格，那么进来之后都有什么福利呢？</LI></BUTTON><br>
+      <BUTTON v-on:click="btn5()"> <LI>5.加入Geek组的要求比较严格，进来之后都有什么福利呢？</LI></BUTTON><br>
       <DIV id="yinshen5" class="a" style="display: none">
         1对1的新人指引，每一个成员都有会一个mentor, 带你初入门槛，与你一同成长
         张扬个性，组内管理比较宽松,在尊重其他人的前提下可以尽情发挥自己的个性。
@@ -81,6 +81,11 @@
         var value=document.getElementById("yinshen6").style.display;
         if(value=="none"){document.getElementById("yinshen6").style.display="block";}
         else if(value=="block"){document.getElementById("yinshen6").style.display="none";}
+      },
+      btn7(){
+        var value=document.getElementById("yinshen7").style.display;
+        if(value=="none"){document.getElementById("yinshen7").style.display="block";}
+        else if(value=="block"){document.getElementById("yinshen7").style.display="none";}
       }
     }
   }
@@ -88,7 +93,9 @@
 
 <style>
   @media (min-width:769px){
-    
+    .a{
+      font-size: 1.5vw;
+    }
     button{
       background: transparent;
       border: 0;
@@ -148,8 +155,47 @@
       width: 100%;
       right: 0%;
     }
+    .a{
+      font-size: 0.1vw;
+    }
   }
   @media(max-width: 479px){
+
+    .a{
+      font-size: 0.1vw;
+      font-family:FZYaoti;
+      left: 20%;
+    }
+    button{
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 2vw;
+      padding: 1vw 5vw;
+      position: relative;
+    }
+    button:before {
+      transition: all 0.6s cubic-bezier(0.7, -0.2, 0.2, 1);
+      content: '';
+      width: 0%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-color: #5993ff;
+      position: absolute;
+      top: 0;
+      left: -0%;
+    }
+
+    button span {
+      mix-blend-mode:normal;
+    }
+
+    button:hover:before {
+      background: #5993ff;
+      width: 100%;
+    }
     #bi{
       display: none;
     }
@@ -159,9 +205,11 @@
       width: 100%;
       right: 0%;
     }
-  }
-  .button{
-      position: relative;
-
+    #question{
+      position: absolute;
+      left: 10%;
+      top: 1030vw;
+      font-size: 10vw;
+    }
   }
 </style>
