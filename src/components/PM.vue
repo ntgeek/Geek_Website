@@ -1,148 +1,51 @@
 <template>
-  <div id="catpm">
-    <div id="lionf">
-      <img id="lion" src="http://img.nt-geek.club/anquan.png">
-      <img id="shizi2"  src="http://img.nt-geek.club/shizi2.png">
-      <img id="chap"  src="http://img.nt-geek.club/王冠.png">
-      <div id="lif">
-        <span id="safe">安全攻城狮(Safety)</span><br>
-        <span id="pm2">我们需要的不是脚本小子，而是对底层
-原理了如指掌。</span><br>
-        <span>主要涉及网络攻防、漏洞挖掘，能够代表
-团队参加CTF安全赛事。</span>
-        <span>• 互联网安全从其本质上来讲其实就是
-互联网上的信息安全
-• 网络安全攻城狮是拥有扎实基础的Super Hacker,同时具有强大的自学能力。
-• 网络安全攻城狮能够识别IT系统的优缺点。并且了解黑客以及网络犯罪手段,且精通网络安全技术:包括服务漏洞扫描、程序漏洞分析检测、病毒木马防范等。
-        </span>
-
-      </div>
-    </div>
+  <div  id="se">
+    <DIV id="wen3">
+    <span id="d1">安全攻城狮(Safety)</span><br>
+    <p  id="we3">我们需要的不是脚本小子，而是对<br>底层原理了如指掌。</p>
+    <span id="d2">主要涉及网络攻防、漏洞挖掘，能够代表<br>团队参加CTF安全赛事</span>
+    <li class="c">互联网安全从其本质上来讲其实就是<br>互联网上的信息安全/li>
+    <li class="c">网络安全攻城狮是拥有扎实基础的Super<br>Hacker,同时具有强大的自学能力。</li>
+    <li class="c">网络安全攻城狮能够识别IT系统的优缺<br>点。并且了解黑客以及网络犯罪手段,且精<br>通网络安全技术:包括服务漏洞扫描、程序<br>漏洞分析检测、病毒木马防范等。</li>
+    </DIV>
+    <img id="lion" src="http://img.nt-geek.club/anquan.png">
+    <img id="shizi2"  src="http://img.nt-geek.club/shizi2.png">
+    <img id="chap"  src="http://img.nt-geek.club/王冠.png">
+    <img id="beijp" src="http://img.nt-geek.club/安全移动端背景.png">
   </div>
 </template>
-
-<script>
-  export default {
-    name: "PM"
-  }
-</script>
-
 <style scoped>
-  @media screen and (min-width:769px) {
-    #pm2{color: cornflowerblue}
-    #chap{
-      display: none;
-    }
-    #shizi2{
-      display: none;
-    }
-    #lion{ margin:0;
-      padding:0;
-      position: absolute;
-      top:378%;
-      left:4%;
-      width: 38vw;
-      height: 42vw;
-    }
-    #safe{
-      font-size: 3.5vw;
-      right: 5%;
-    }
-    #lif{
-      top:380%;
-      font-size: 1.5vw;
-      font-family: FZYaoti;
-      position: absolute;
-      left: 52%;
-      right: 5%;
-    }
-    span{font-size: 2vw}
+  @media (min-width: 501px) {
+    #shizi2{display: none}
+    #chap{display: none}
+    #se{position: relative;left:5%;top:167vw}
+    #lion{position:absolute;width:38vw;height: 42vw; top:-2%;left: 5%;}
+    #wen3{position: absolute;top:3vw;left: 58%;width: 100%}
+    #d1{font-size: 3vw}
+    span{font-size: 2vw;font-family: FZYaoti}
+    p{color:#7BD3FF;font-size: 2.3vw;font-family: FZYaoti;color: cornflowerblue;position: relative;top:1.5vw;}
+    li{font-size: 2vw;font-family: FZYaoti}
+    #d2{position: relative;top: 2vw;}
+    .c{position: relative;top: 3vw;}
+    #beijp{display: none}
   }
-  @media (max-width: 768px) and (min-width:480px ) {
-    #lion {
-      display: none
-    }
-    #chap{
-      position: absolute;
-      width: 20%;
-      right: 0%;
-    }
-    #shizi2 {
-      top: 58%;
-      position: absolute;
-      height: 35%;
+  @media (max-width: 500px) {
+    #se{position: relative;top: 162vw;height:170vw;}
+    #lion{display: none}
+    #shizi2 {height: 35%;
       width: 58%;
-      right: 5%;
-    }
-    #lif {
-      top:5%;
-      font-family: FZYaoti;
+      z-index: 2;
       position: absolute;
-      left: 5%;
+      top: 100vw;left: 34%;
     }
-
-    #lionf {
-      top:5%;
-      font-weight: bolder;
-      font-size: 3vw;
-    }
-    #catpm{
-      top:385%;
-      width: 80%;
-      height: 80%;
-      left: 10%;
-      position: absolute;
-      border: 1vw solid yellowgreen;
-      border-radius: 5vw;
-      z-index: 10;
-    }
+    #chap{ width: 20%;z-index: 2;width: 20%;top: 10%;right: 3%;position: absolute;}
+  #wen3{position: absolute;top:15%;left: 11%;z-index:2;}
+  #beijp{width: 100%;height: 170vw;position: absolute;top: -0vw;left: 0%;}
+  #d2{position: relative;top:4vw;}
+  span{font-size: 4.5vw;font-family: FZYaoti}
+  p{color:cornflowerblue;font-family: FZYaoti;}
+  li{font-size: 3.8vw;font-family: FZYaoti;position: relative;top:6vw;}
+  #we3{font-size: 4vw;position: relative;top: 2.5vw;}
+  #d1{font-size: 6vw;}
   }
-  @media (max-width: 479px){
-    #safe{
-      font-size: 5vw;
-    }
-    #lion {
-      display: none
-    }
-    #chap{
-      position: absolute;
-      width: 20%;
-      right: 0%;
-    }
-    #shizi2 {
-      top: 68%;
-      position: absolute;
-      height: 27%;
-      width: 58%;
-      right: 5%;
-    }
-    #lif {
-      top:5%;
-      font-family: FZYaoti;
-      position: absolute;
-      left: 6%;
-      right: 5%;
-    }
-
-    #lionf {
-      top:5%;
-      font-weight: bolder;
-      font-size: 3vw;
-    }
-    #catpm{
-      top:385%;
-      width: 80%;
-      height: 80%;
-      left: 10%;
-      position: absolute;
-      border: 1vw solid yellowgreen;
-      border-radius: 5vw;
-      z-index: 10;
-    }
-    #pm2{
-      font-size: 4.3vw;
-      color: #497465;
-    }
-  }
-
 </style>

@@ -6,7 +6,8 @@
   import pro from "./components/pro";
   import Aboutus from "./components/aboutus";
   import contactus from "./components/contactus";
-
+  import dhl from "./components/dhl";
+  import transition from "./components/transition";
 
   "use strict";
 
@@ -14,17 +15,21 @@
     name: 'first',
     components: {
       "v-fontend":fontend,
+      "v-transition":transition,
       "v-pro":pro,
       "v-ai":ai,
       "v-pm":pm,
       "v-foremore":formore,
       "v-Aboutus":Aboutus,
-      "v-contactus":contactus
+      "v-contactus":contactus,
+      "v-danghang":dhl,
     }
 }
 </script>
 <template>
   <div id="first" class="bw">
+    <v-danghang></v-danghang>
+    <v-transition></v-transition>
     <v-fontend></v-fontend>
     <div id="second">
     <v-pro></v-pro>
@@ -38,36 +43,5 @@
   </div>
 </template>
 <style scoped>
-  @media(min-width: 768px) {
-    .bw{background-color: white}
-    #first {
-      background: url("http://img.nt-geek.club/首页背景.png");
-      position: relative;
-      background-size: 100% 100%;
-      width: 90%;
-      height: 65vw;
-      background-color: white;
-      margin: 0 auto;
-    }
-    #second{
-      background-color: white;
-    }
-  }
-    @media (max-width: 768px) and (min-width:480px ) {
-      #first {
-        background: url("http://img.nt-geek.club/shouye.png");
-        position: relative;
-        background-size: 100% 100%;
-        height: 60vw;
-      }
-    }
-      @media (max-width:479px) {
-        #first {
-          background: url("http://img.nt-geek.club/shouye.png");
-          position: absolute;
-          background-size: 100% 100%;
-          width: 100%;
-          height: 150vw;
-        }
-      }
+
 </style>

@@ -1,6 +1,7 @@
 <template>
   <div id="introuduce1" class="bp" >
     <img id="it" SRC="http://img.nt-geek.club/介绍.png">
+    <img id="gd" src="http://img.nt-geek.club/过渡花纹.png">
   </div>
 </template>
 <script>
@@ -9,34 +10,13 @@
     }
 </script>
 <style scoped>
-  @media screen and (min-width:769px) {
-    #it {
-      position: absolute;
-      top: 60%;
-      right: 30%;
-      width: 33vw;
-    }
-    #introuduce1{
-      position: absolute;
-      top: 100%;
-      left: 1%;
-      right: 1%;
-      height: 20%;
-      z-index: 2;
-    }
-    .bp {
-      background-image: url(http://img.nt-geek.club/过渡花纹.png);
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-color: white;
-    }
+  @media screen and (min-width:501px) {
+    #introuduce1{position: relative;top: 63vw;width: 51%;left: 0.5%;}
+    #it {position: absolute;width: 33vw;left:80%;top:7vw;}
+    #gd{position:absolute;width: 210%;left: 14%;}
   }
-  @media (max-width: 768px) and (min-width:480px){
-    #it{
-      display: none;
-    }}
-  @media (max-width: 479px){
-    #it{
-      display: none;
-    }}
+  @media (max-width: 500px){
+    #it{display: none;}
+  #gd{display: none;}
+  }
 </style>
