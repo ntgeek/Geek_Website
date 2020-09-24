@@ -1,6 +1,9 @@
 <template>
     <div id="dh">
-      <img src="http://img.nt-geek.club/geek.png" id="geek">
+    <button>
+      <img src="http://m.qpic.cn/psc?/V131WDHd0IXFUC/ruAMsa53pVQWN7FLK88i5ue6ifDF36bVxaI0mlL36pIr0rMIvwocJ1RuJN8*s4kDdAw4jByc6yWv6Ei.URDP.ssn1Aiie6d1utWNzBwgyGY!/mnull&bo=ZAhsAwAAAAADByE!&rf=photolist&t=5" id="geek">
+      </button>
+      <button id="sayings">Keep Curiosity<br>The Power Of Change</button>
       <img src="http://img.nt-geek.club/Geek1.png"  id="geek1">
       <img src="http://img.nt-geek.club/anniu.png"  id="anniu">
       <div id="dh1">
@@ -21,11 +24,35 @@
   @media(min-width: 768px) {
     #geek1{display: none}
     #anniu{display: none}
-    #geek{
+    button{
       position: absolute;
-      left: 35%;
-      width: 30%;
-      top: 13%;
+      top: 6%;
+      left: 25vw;
+      outline: none;
+      background: none;
+      border: none;
+      transition-duration: 0.5s;
+    }
+
+    button:hover{
+    transform: scale(1.1);
+    }
+
+    #sayings{
+      position: absolute;
+      font-family:HWHupo;
+      font-size: 2vw;
+      font-weight: 900 ;
+      color: rgb(107, 107, 107);
+      left: 38%;
+      top:20vw;
+      
+    }
+
+    #geek{
+      position: relative;
+      width: 40vw;
+
     }
     #fontz1{
       position:absolute; left: 3vw;
