@@ -73,7 +73,7 @@
       }
 
     #beijp{
-      width: 10%;
+      width: 100vw;
       height: 170vw;
       position: absolute;
       top: 0vw;

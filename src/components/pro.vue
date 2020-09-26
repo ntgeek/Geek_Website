@@ -62,11 +62,10 @@
       z-index: 200;
       }
     #heiban{
-      width: 20%;
-       width: 20%;
+       width: 20vw;
        position: absolute;
        top: 10vw;
-       right: 9%;
+       left: 70vw;
        z-index: 2;
        }
     #wen2{
@@ -100,7 +99,7 @@
       width: 80vw;
       }
     #prx{
-      width: 100%;
+      width: 100vw;
       height: 170vw;
       position: absolute;
       top: -0vw;

@@ -41,7 +41,7 @@ li{font-size: 2vw;font-family: FZYaoti;position: relative;top:1.5vw;}
 #rengong{
   position: relative;
   top: 688vw;
-  width: 9.5%; 
+  width: 9.5vw; 
   height: 170vw;
   left: 0%;
   }
@@ -49,10 +49,10 @@ li{font-size: 2vw;font-family: FZYaoti;position: relative;top:1.5vw;}
 
   #ai2{ 
      height:40%;
-     width: 60%;
+     width: 60vw;
      position: absolute;
      top: 119vw;
-     left: 40%;
+     left: 40vw;
      z-index: 2
      }
 
@@ -77,7 +77,7 @@ li{font-size: 2vw;font-family: FZYaoti;position: relative;top:1.5vw;}
   #wen2{
     position: absolute;
     top: 30vw;
-    left: 11%;
+    left: 11vw;
     z-index: 2;
     width: 80vw;
     }
@@ -90,7 +90,7 @@ li{font-size: 2vw;font-family: FZYaoti;position: relative;top:1.5vw;}
     }
 
   #aix{
-    width: 104%;
+    width: 100vw;
     height: 170vw;
     position: absolute;
     top: 0vw;

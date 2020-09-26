@@ -94,7 +94,6 @@ li{
 
     #we1{
       position: absolute;
-    
       left: 2vw;
       top: 190vw;
       width: 100vw;
@@ -127,9 +126,9 @@ li{
 
     #houzi{ 
       position: absolute;
-      width: 70%;
+      width: 67%;
       left: 25vw;
-      top: 307vw;
+      top: 300vw;
       z-index: 10;
     }
     #houzibeijing{ 
@@ -149,7 +148,7 @@ li{
     #wen1{
       position: absolute;
       left: 11%;
-      top: 32vw;
+      top: 21vw;
       z-index: 2;
       }
 

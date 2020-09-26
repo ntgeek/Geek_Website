@@ -284,44 +284,127 @@
   }
 
   @media (max-width: 500px) {
+    #b{width: 80vw;position:absolute;top: 0%;left: -3%;}
+    #foremo {
+      position: relative;
+      top: 350vw;
+      background-color: #8dc6ff;
+      width: 100vw;
+    }
     .a {
       text-align: center;
       font-size: 1.4vw;
       font-family: FZYaoti;
-      position: absolute;
-      top: 30%;
-      left: 5%;
-      right: 5%;
     }
-    #allquestion{
+    span{
+      line-height: 4vw;
       position: relative;
+      overflow: hidden;
+      left: 4%;
+      width: 87vw;
+      font-size: 2vw;
+      overflow: auto;
+      font-family: FZYaoti;
+      text-align: left;
+      display: block;
+      top: 2vw;
+      
     }
     button{
-      background: none;
-      outline: none;
+      position: relative;
+      background: #8dc6ff;
+      height:8vw;
       color: white;
       border: none;
-      text-align: left;
       position: relative;
-      left: 10%;
-      right: 10%;
-      color: white;
-      font-size: 1.2vw;
       font-family:FZYaoti;
       transition-duration: 0.4s;
-      top: 10vw;
+      outline: none;
+      text-align: left;
+      top: 1vw;
+      width: 100vw;
     }
     button:hover::before{
       transition-duration: 2s;
       font-size: 1.4vw;
+      transform: scale(1.3);
     }
     button:hover{
       color: #3e7af6;
-      font-size: 1.4vw;
+      font-size: 1.8vw;
+      transform: scale(1.07);
+      background-color: #9acdff;
     }
-    #question {
-      width: 68%;
-      text-align: left;
+    li{
+      font-size: 2.6vw;
+      position: relative;
+      left: 20vw;
+      width: 58vw;
+      line-height: 4vw;
     }
-  }
+    li{position: relative;top: 3vw;line-height: 1.5;font-size:2.8vw;right:20 vw;}
+    #question1{position: relative;top:-10vw;}
+    #question2{position: relative;top:-15vw;}
+    #question3{position: relative;top:-18vw;}
+    #question4{position: relative;top:-22vw;}
+    #question5{position: relative;top:-26vw;}
+    #question6{position: relative;top:-25vw;}
+    #question7{position: relative;top:-25vw;}
+  #decoration{
+  z-index: 10;
+  position: absolute;
+  top: 12vw;
+  width: 23vw;
+  left: -7%;
+}
+
+#decoration1{
+  z-index: 10;
+  position: absolute;
+  top: 20vw;
+  width: 20vw;
+  left: 81%;
+}
+
+#decoration2{
+  z-index: 10;
+  position: absolute;
+  top: 43vw;
+  width: 12vw;
+  left: 90%;
+}
+
+#decoration3{
+  z-index: 10;
+  position: absolute;
+  top: 40vw;
+  width: 15vw;
+  left: -8%;
+}
+
+#decoration4{
+  z-index: 10;
+  position: absolute;
+  top: 30vw;
+  width: 10vw;
+  left: 6%;
+}
+
+#decoration5{
+  z-index: 10;
+  position: absolute;
+  top: 60vw;
+  width: 14vw;
+  left: 4%;
+}
+
+#decoration5{
+  z-index: 10;
+  position: absolute;
+  top: 38vw;
+  width: 8vw;
+  left: 84%;
+}
+    }
+  
 </style>

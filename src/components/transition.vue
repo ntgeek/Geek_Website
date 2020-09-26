@@ -18,8 +18,8 @@
   @media (max-width: 500px){
     #it{
       position: relative;
-      width: 5%;
-      left: 23vw;
+      width: 50%;
+      left: 25vw;
       top: 156vw;
     }
   #gd{display: none;}

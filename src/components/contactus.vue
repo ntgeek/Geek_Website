@@ -5,7 +5,7 @@
       <img id="rights"  SRC="http://img.nt-geek.club/右边的树.png">
       <img id="uscontact" src="http://img.nt-geek.club/联系我们.png">
       <img id="yezi"  src="http://img.nt-geek.club/yezi1.png">
-
+<img id="bianselong2"  src="http://img.nt-geek.club/变色龙2.png">
       <div id="wen4">
 
           <span>•热爱计算机，具有geek精神，喜欢DIY，动手能力较强<br></span>
@@ -51,7 +51,9 @@
   #cf4 {left: 28vw;}
   #cf5 {left: 62vw;}
   #yx {left: 45vw;}
-
+#bianselong2{
+  display: none;
+}
   #contact{position: relative;right: 8%;top: 256vw;}
   span{font-size: 1.5vw;font-family: FZYaoti;position: relative;top: -26vw;color:rgb(69, 100, 90);line-height: 2.8vw;}
   #wen4{position: absolute;left: 32%;top:35vw;line-height: 2vw;} 
@@ -101,18 +103,22 @@
 
 
 @media (max-width: 500px) {
-  #contact{position: relative;top: 400vw;width: 100%;height: 190vw;}
+  #contact{position: relative;top: 405vw;width: 100vw;height: 190vw;}
   #lefts {display: none;}
   #yezi {display: none;}
-  #uscontact { width: 40%;position: absolute;top: -3vw;left: 20%;z-index: 2;}
-  #rights {
+  #uscontact { width: 50vw;position: absolute;top: 3vw;left:20vw;z-index: 2;}
+  #rights{
+    display: none;
+  }
+  #bianselong2{
     position: absolute;
-    left: 38%;
-    width: 75%;
-    height: 72%;}
-  #wen4{position: relative;top:27%;font-family: FZYaoti;font-size: 1.5vw;}
+    left: 27vw;
+    width: 75vw;
+    height: 130vw;}
+  #wen4{position: relative;top:35vw;font-family: FZYaoti;font-size: 1.5vw;left:20vw;line-height: 5vw;
+  width: 55vw;}
   #cf4 {
-    width: 20vw;
+    width: 17vw;
     height:5vw;
     color: rgb(69, 100, 90);
     font-size: 2vw;
@@ -125,8 +131,9 @@
     background-color: white;
     box-shadow: none;
     position: absolute;
-    left: 34vw;
-    top:90vw;
+    left: 36vw;
+    transition-duration: 0.4s;
+    top: 100vw;
     transition-duration: 0.4s;
   }
   #cf4:hover{
@@ -136,7 +143,7 @@
     transform: scale(1.1);
   }
   #cf5 {
-    width: 20vw;
+    width: 17vw;
     height:5vw;
     color: rgb(69, 100, 90);
     font-size: 2vw;
@@ -149,7 +156,8 @@
     background-color: white;
     box-shadow: none;
     position: absolute;
-    top:90vw;
+    transition-duration: 0.4s;
+    top: 100vw;
     left: 62vw;
     transition-duration: 0.4s;
   }
@@ -160,7 +168,7 @@
     transform: scale(1.1);
   }
   #yx {
-    width: 20vw;
+    width: 17vw;
     height:5vw;
     color: rgb(69, 100, 90);
     font-size: 2vw;
@@ -173,9 +181,9 @@
     background-color: white;
     box-shadow: none;
     position: absolute;
-    left: 5vw;
+    left: 10vw;
     transition-duration: 0.4s;
-    top: 90vw;
+    top: 100vw;
   }
   #yx:hover{
     color:white;
