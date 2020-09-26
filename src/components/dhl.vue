@@ -104,28 +104,14 @@
       }
 
       #sayings{
-        position: absolute;
-        background: none;
-        border: none;
-        font-weight: 800;
-        font-size: 7vw;
-        font-family: Agency FB;
-        outline: none;
-        color: rgb(109, 109, 109);
-        left: 26%;
-        top: 40%;
-        transition-duration: 4ms;
-      }
-
-      #sayings:hover{
-        transform: scale(1.1);
+      display: none;
       }
       #GEEK:hover{
         transform: scale(1.1);
       }
 
 
-    #dh{background: url("http://img.nt-geek.club/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E7%AC%AC%E4%B8%80%E9%A1%B5.png");
+    #dh{background: url("http://img.nt-geek.club/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E7%AC%ACer.png");
       position: absolute;
       background-size: 100% 100%;
       width: 100%;

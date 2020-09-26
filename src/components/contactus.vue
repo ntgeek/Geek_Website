@@ -106,7 +106,7 @@
   #contact{position: relative;top: 405vw;width: 100vw;height: 190vw;}
   #lefts {display: none;}
   #yezi {display: none;}
-  #uscontact { width: 50vw;position: absolute;top: 3vw;left:20vw;z-index: 2;}
+  #uscontact { width: 50vw;position: absolute;top: 1vw;left:20vw;z-index: 2;}
   #rights{
     display: none;
   }
@@ -114,11 +114,11 @@
     position: absolute;
     left: 27vw;
     width: 75vw;
-    height: 130vw;}
-  #wen4{position: relative;top:35vw;font-family: FZYaoti;font-size: 1.5vw;left:20vw;line-height: 5vw;
-  width: 55vw;}
+    height: 142vw;}
+  #wen4{position: relative;top:33vw;font-family: FZYaoti;font-size: 4.5vw;left:13vw;line-height: 6vw;
+  width: 66vw;}
   #cf4 {
-    width: 17vw;
+    width: 18vw;
     height:5vw;
     color: rgb(69, 100, 90);
     font-size: 2vw;
@@ -133,7 +133,7 @@
     position: absolute;
     left: 36vw;
     transition-duration: 0.4s;
-    top: 100vw;
+    top: 114vw;
     transition-duration: 0.4s;
   }
   #cf4:hover{
@@ -157,7 +157,7 @@
     box-shadow: none;
     position: absolute;
     transition-duration: 0.4s;
-    top: 100vw;
+    top: 114vw;
     left: 62vw;
     transition-duration: 0.4s;
   }
@@ -183,7 +183,7 @@
     position: absolute;
     left: 10vw;
     transition-duration: 0.4s;
-    top: 100vw;
+    top: 114vw;
   }
   #yx:hover{
     color:white;

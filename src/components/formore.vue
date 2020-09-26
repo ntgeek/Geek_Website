@@ -36,7 +36,7 @@
 
         <div id="question3">
             <BUTTON v-on:click="btn3()">
-              <li>3.我们有考核吗？考核的流程是怎样的呀？</li>
+              <li>3.我们有考核吗？考核流程是怎样的呀？</li>
             </BUTTON><br>
 
             <span id="yinshen3" class="a" style="display: none"><li>答：嗯...考核还是比较严格的, 不过别紧张hhh, 开玩笑啦~我们一共有一轮笔试和两轮面试。第一轮笔试，考虑到有技术和经验尚缺但学习能力很强的新生，第一轮多是一些视野性的题目（这一轮选拔淘汰率并不高）。第二轮单独面试，话题包括根据你的笔试提出技术相关的问题、你的兴趣爱好、个人看法。最后一轮群面。首先问及时间分配上的问题（请避免时间冲突的情况），其次我们会向你提出各种稀奇古怪的问题。这一轮中许多题目其实并不难，也无标准答案，重在考察同学们在压力下的逻辑思维。全部通过就可以进入考核期成为预备成员啦。
@@ -56,7 +56,7 @@
 
         <div id="question5">
             <BUTTON v-on:click="btn5()"> 
-              <LI>5.加入Geek组的要求比较严格，进来之后都有什么福利呢？</LI>
+              <LI>5.进入Geek组之后都有什么福利呢？</LI>
             </BUTTON><br>
 
             <span id="yinshen5" class="a" style="display: none"><li>答：1对1的新人指引，每一个成员都有会一个mentor, 带你初入门槛，与你一同成长张扬个性，组内管理比较宽松,在尊重其他人的前提下可以尽情发挥自己的个性。打破平淡，与同样疯狂的人把你疯狂的idea实现出来，磨砺耐性、培养互联网思维、成就自己的梦想。丰富资源，Lab设备/网络资源充足（可能是学校实验室最好的条件之一），闲暇之余也有组织活动与聚餐。我们组的指导老师是整个团队的创始人, 非常nice且有趣, 有许多的故事等你来听~
@@ -284,10 +284,10 @@
   }
 
   @media (max-width: 500px) {
-    #b{width: 80vw;position:absolute;top: 0%;left: -3%;}
+    #b{width: 80vw;position:absolute;top: -5vw;left: -3%;}
     #foremo {
       position: relative;
-      top: 350vw;
+      top: 368vw;
       background-color: #8dc6ff;
       width: 100vw;
     }
@@ -300,20 +300,19 @@
       line-height: 4vw;
       position: relative;
       overflow: hidden;
-      left: 4%;
+      left: 3%;
       width: 87vw;
       font-size: 2vw;
-      overflow: auto;
+      overflow: none;
       font-family: FZYaoti;
       text-align: left;
       display: block;
-      top: 2vw;
-      
+      top: 5vw;
     }
     button{
       position: relative;
       background: #8dc6ff;
-      height:8vw;
+      height:5vw;
       color: white;
       border: none;
       position: relative;
@@ -338,11 +337,12 @@
     li{
       font-size: 2.6vw;
       position: relative;
-      left: 20vw;
-      width: 58vw;
+      left: 17vw;
+      width: 63vw;
       line-height: 4vw;
+      overflow: none;
     }
-    li{position: relative;top: 3vw;line-height: 1.5;font-size:2.8vw;right:20 vw;}
+    li{position: relative;top: 0vw;line-height: 1.5;font-size:2.8vw;right:20 vw;}
     #question1{position: relative;top:-10vw;}
     #question2{position: relative;top:-15vw;}
     #question3{position: relative;top:-18vw;}
