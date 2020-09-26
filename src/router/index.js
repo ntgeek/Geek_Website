@@ -8,28 +8,26 @@ import fontend from "../components/fontend"
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'FirstPage',
-      component: FirstPage,
-      children:[{
-        path: "/",
-        name: 'transition',
-        component: transition
-      },
+    routes: [{
+            path: '/',
+            name: 'FirstPage',
+            component: FirstPage,
+            children: [{
+                    path: "/",
+                    name: 'transition',
+                    component: transition
+                },
+                {
+                    path: "fontend",
+                    name: 'fontend',
+                    component: fontend
+                }
+            ]
+        },
         {
-          path: "fontend",
-          name: 'fontend',
-          component: fontend
+            path: '/',
+            name: 'SecondPage',
+            component: SecondPage
         }
-      ]
-    },
-    {
-      path: '/',
-      name: 'SecondPage',
-      component: SecondPage
-    }
-  ]
+    ]
 })
-
