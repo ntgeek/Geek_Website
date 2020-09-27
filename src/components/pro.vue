@@ -79,21 +79,31 @@
       left: 10vw;
       z-index: 2;
       }
-    #p1{      
-      position: absolute;
-      top: 26vw;
-      font-size: 7vw;
-      }
+
     span{
       font-size: 4.5vw;
       font-family: FZYaoti;
       }
-    p{
-      color:rgb(192, 115, 255);
-      font-size: 4vw;
+
+      #p1{
+        font-size: 6vw;
       font-family: FZYaoti;
       position: absolute;
-      top: 37vw;
+      width: 70vw;
+      top: 18vw;
+      }
+    p{
+      font-size: 4.5vw;
+      font-family: FZYaoti;
+      position: absolute;
+      width: 70vw;
+      top: 27vw;
+      }
+      #ab{
+        font-size: 4.5vw;
+      font-family: FZYaoti;
+      position: absolute;
+      top: 40vw;
       width: 70vw;
       }
     li{
