@@ -15,6 +15,7 @@
   "dependencies": {
     "copy-util": "^1.0.1",
     "fontmin": "^0.9.8",
+    "jquery.js": "0.0.2-security",
     "lib-flexible": "^0.3.2",
     "postcss-px2rem": "^0.3.0",
     "vue": "^2.5.2",

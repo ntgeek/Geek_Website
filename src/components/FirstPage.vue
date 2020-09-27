@@ -14,12 +14,59 @@
 
 </template>
 
+<script str="http://code.jquery.com/juqery-latest.js"></script>
+
+
+// <script>
+// function getMousePos(event) {
+//        var e = event || window.event;
+//        var scrollX = document.documentElement.scrollLeft || document.body.scrollLeft;
+//        var scrollY = document.documentElement.scrollTop || document.body.scrollTop;
+//        var x = e.pageX || e.clientX + scrollX;
+//        var y = e.pageY || e.clientY + scrollY;
+//        //alert('x: ' + x + '\ny: ' + y);
+//        return {x,y};
+// }
+// function hide_the_navigationbar(){
+//     var mouse=getMousePos().scrollTop;
+//     var mouse_y=getMousePos().scrollY;10
+//     var elem_height=$(document).scrollTop();
+//     if(mouse_y <= elem_height ||mouse_y <= elem_height )
+//     {
+//         return 0;
+//     }
+//     if(mouse_y <= elem_height || mouse_y <= elem_height ){
+//         return 0;
+//     }
+// }
+// </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <style>
 @media(min-width: 551px){
 li{
     display: inline;
-
 }
+
+.hide{
+top:-20vw;
+}
+
+
+
 a{
     text-decoration: none;
     text-align: center;
@@ -54,7 +101,8 @@ ul {
     background-color: #fff4c3;
     height: 3.6vw; /* 全屏高度 */
     position: fixed; 
-    overflow: auto; /* 如果导航栏选项多，允许滚动 */
+    overflow: none; /* 如果导航栏选项多，允许滚动 */
+    transition: top 0.5;
 }
 #Introuduce{
     position: absolute;
