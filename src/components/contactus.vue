@@ -38,7 +38,7 @@
       bn1() {
         var value = document.getElementById("yx").title;
         Copy(value);
-        alert("复制成功")}}}
+        alert("邮箱地址已复制到粘贴板")}}}
 </script>
 <style scoped>
   @media (min-width: 501px){
