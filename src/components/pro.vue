@@ -52,9 +52,9 @@
       display: none;
       }
    #cat{
-    position: relative;
-    top: 348vw;
-    width: 10%; 
+      position: relative;
+      top: 348vw;
+      width: 10%; 
     }
 
 
@@ -85,8 +85,8 @@
       font-family: FZYaoti;
       }
 
-      #p1{
-        font-size: 6vw;
+    #p1{
+      font-size: 6vw;
       font-family: FZYaoti;
       position: absolute;
       width: 70vw;
@@ -99,8 +99,8 @@
       width: 70vw;
       top: 27vw;
       }
-      #ab{
-        font-size: 4.5vw;
+    #ab{
+      font-size: 4.5vw;
       font-family: FZYaoti;
       position: absolute;
       top: 40vw;
