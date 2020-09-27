@@ -102,7 +102,7 @@ ul {
     font-size: 2.5vw;
     font-family:Agency FB;
     font-weight: 800;
-    width: 4vw;
+    width: 10vw;
     color: rgb(92, 92, 92);
 }
 
