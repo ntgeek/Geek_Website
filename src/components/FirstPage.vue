@@ -98,11 +98,11 @@ ul {
 
 #NewThread{
     position: relative;
-    left: 44vw;
+    left: 40vw;
     font-size: 2.5vw;
     font-family:Agency FB;
     font-weight: 800;
-    width: 10vw;
+    width: 20vw;
     color: rgb(92, 92, 92);
 }
 

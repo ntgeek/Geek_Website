@@ -45,7 +45,7 @@
       font-size: 1.8vw;
       font-weight: 900 ;
       color: rgb(146, 146, 146);
-      left: 40%;
+      left: 39vw;
       top:21vw;
       cursor: pointer;
     }
@@ -61,7 +61,7 @@
       position: relative;
       width: 41vw;
       top: 1vw;
-      left: 2vw;
+      left: 3vw;
       cursor: pointer;
 
     }
