@@ -43,7 +43,7 @@
     #ab{
       font-size: 2vw;font-family: FZYaoti;
       position: relative;
-      top: 2vw;
+      top: 3vw;
     }
   }
   @media(max-width: 500px){

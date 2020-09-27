@@ -19,7 +19,7 @@
                 <li>1.什么是Geek(极客)？Geek精神又是什么？</li>
             </button> <br>
 
-            <span id="yinshen1"  class="a" style="display: none"><li>答：拥有好奇之心，改变之力，爱钻研，能折腾。</li></span><br><br>
+            <span id="yinshen1"  class="a" style="display: block"><li>答：拥有好奇之心，改变之力，爱钻研，能折腾。</li></span><br><br>
         </div>
 
 

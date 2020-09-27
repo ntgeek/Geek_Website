@@ -1,11 +1,11 @@
 <template>
 
     <ul>
-        <li><a  href="https://new-thread.com/" id="newth"><button id="New" >NewThread</button></a></li>
+        <li><a  href="https://new-thread.com/" id="newth"><button id="NewThread" >NewThread</button></a></li>
 
         <li><a href="#introuduce1"><button id="Introuduce">Introduction</button></a></li>
 
-        <li><a href="#foremo"><button id="MoreQ">Q&A</button></a></li>
+        <li><a href="#foremo"><button id="MoreQ">Q&Ask</button></a></li>
 
         <li><a href="#leftx"><button id="Contact">Contact Us</button></a></li>
 
@@ -13,45 +13,6 @@
     </ul>
 
 </template>
-
-<script str="http://code.jquery.com/juqery-latest.js"></script>
-
-
-// <script>
-// function getMousePos(event) {
-//        var e = event || window.event;
-//        var scrollX = document.documentElement.scrollLeft || document.body.scrollLeft;
-//        var scrollY = document.documentElement.scrollTop || document.body.scrollTop;
-//        var x = e.pageX || e.clientX + scrollX;
-//        var y = e.pageY || e.clientY + scrollY;
-//        //alert('x: ' + x + '\ny: ' + y);
-//        return {x,y};
-// }
-// function hide_the_navigationbar(){
-//     var mouse=getMousePos().scrollTop;
-//     var mouse_y=getMousePos().scrollY;10
-//     var elem_height=$(document).scrollTop();
-//     if(mouse_y <= elem_height ||mouse_y <= elem_height )
-//     {
-//         return 0;
-//     }
-//     if(mouse_y <= elem_height || mouse_y <= elem_height ){
-//         return 0;
-//     }
-// }
-// </script>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -135,7 +96,7 @@ ul {
         font-family: FZYaoti;
 }
 
-#New{
+#NewThread{
     position: relative;
     left: 44vw;
     font-size: 2.5vw;

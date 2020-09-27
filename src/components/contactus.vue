@@ -11,7 +11,7 @@
           <span>•热爱计算机，具有geek精神，喜欢DIY，动手能力较强<br></span>
           <span>•有编程/算法/硬件基础为佳(有作品可附上)<br></span>
           <span>•有足够的空余时间，热爱思考，对事物有自己的见解<br></span>
-          <span>ps:非新思路统招只有通过发送邮件自我介绍后，收到邮件回执后才会被允许进群在读学生,都可邮件到newthread_geek@outlook.com报名加入.(信中需备注个人基本信息以及意向方向,此招新活动为长期招新)</span>
+          <span>ps:非新思路统招只有通过发送邮件自我介绍后，收到邮件回执后才会被允许进群,在读学生,都可邮件到newthread_geek@outlook.com报名加入.(信中需备注个人基本信息以及意向方向,此招新活动为长期招新)</span>
 
       </div>
 
@@ -67,7 +67,7 @@
       height:3vw;
       font-family: FZYaoti;
       cursor: pointer;
-      color: rgb(69, 100, 90);
+      color:white;
       font-size: 2vw;
       border-radius: 1vw;
       border-color: rgb(69, 100, 90);
@@ -75,14 +75,13 @@
       outline: none;
       -webkit-transition-duration: 0.4s;
       transition-duration: 0.4s;
-      background-color: white;
-      background-color: white;
+      background-color:rgb(69, 100, 90);
       box-shadow: none;
     }
     button:hover{
-      color:white;
-      background-color:rgb(69, 100, 90);
+      background-color:rgb(255, 255, 255);
       border: none;
+      color: rgb(69, 100, 90);
       transform: scale(1.1);
     }
 
@@ -119,7 +118,7 @@
   #cf4 {
     width: 18vw;
     height:5vw;
-    color: rgb(69, 100, 90);
+    color:white;
     font-size: 2vw;
     border-radius: 1vw;
     border-color: rgb(69, 100, 90);
@@ -127,7 +126,7 @@
     transition-duration: 0.4s;
     outline: none;
     border-width: 0.2vw;
-    background-color: white;
+    background-color:rgb(69, 100, 90);
     box-shadow: none;
     position: absolute;
     left: 36vw;
@@ -135,16 +134,16 @@
     top: 114vw;
     transition-duration: 0.4s;
   }
-  #cf4:hover{
-    color:white;
-    background-color:rgb(69, 100, 90);
+  #cf4:hover{    color: rgb(69, 100, 90);
+    background-color: white;
+
     border: none;
     transform: scale(1.1);
   }
   #cf5 {
     width: 17vw;
     height:5vw;
-    color: rgb(69, 100, 90);
+
     font-size: 2vw;
     border-radius: 1vw;
     border-color: rgb(69, 100, 90);
@@ -152,43 +151,43 @@
     transition-duration: 0.4s;
     outline: none;
     border-width: 0.2vw;
-    background-color: white;
+
     box-shadow: none;
     position: absolute;
     transition-duration: 0.4s;
     top: 114vw;
     left: 62vw;
-    transition-duration: 0.4s;
+    transition-duration: 0.4s;    color:white;
+    background-color:rgb(69, 100, 90);
   }
   #cf5:hover{
-    color:white;
-    background-color:rgb(69, 100, 90);
-    border: none;
+    background-color: white;
+    border: none;    color: rgb(69, 100, 90);
     transform: scale(1.1);
   }
   #yx {
     width: 17vw;
     height:5vw;
-    color: rgb(69, 100, 90);
+    color:white;
     font-size: 2vw;
     border-radius: 1vw;
+    background-color:rgb(69, 100, 90);
     border-color: rgb(69, 100, 90);
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     outline: none;
     border-width: 0.2vw;
-    background-color: white;
+
     box-shadow: none;
     position: absolute;
     left: 10vw;
     transition-duration: 0.4s;
     top: 114vw;
   }
-  #yx:hover{
-    color:white;
-    background-color:rgb(69, 100, 90);
+  #yx:hover{    color: rgb(69, 100, 90);
+
     border: none;
-    transform: scale(1.1);
+    transform: scale(1.1);    background-color: white;
   }
   a{
     position: absolute;

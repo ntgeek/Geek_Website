@@ -93,7 +93,11 @@
       top: 2%;
     }}
   @media (max-width: 550px) {
-
+#geek{
+  background: none;
+  border: none;
+  outline: none;
+}
 
       #GEEK{
         position: absolute;

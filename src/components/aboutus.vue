@@ -11,9 +11,9 @@
 
 
       <div class="about_contain2"> 
-          <img id="speech" src="http://img.nt-geek.club/演讲.png" class="d">
+          <img id="speech" src="http://img.nt-geek.club/speech.png" class="d">
             <span>
-              <br>技术汇报。每周我们会举行一次技术例会，用来汇报我们的学习内容，供成员之间交流学习。
+              <br>每周我们会举行一次技术例会，用来汇报我们的学习内容，供成员之间交流学习。
             </span>
       </div>
 
@@ -21,7 +21,7 @@
       <div class="about_contain3">
           <img id="douyan" src="http://img.nt-geek.club/duoyuan.png" class="d">
             <span>
-              <br>多元化是我们的特色。在这里，你可以拥有多种方向选择，前后端、安全、AI、算法产品等。
+              <br>多元化是我们的特色。在这里，你可以拥有多种方向选择，前后端、安全、AI、算法、产品等。
             </span>
       </div>
 
