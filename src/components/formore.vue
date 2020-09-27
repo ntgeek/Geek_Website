@@ -305,7 +305,7 @@
       font-family: FZYaoti;
       text-align: left;
       display: block;
-      top: 5vw;
+      top: 3vw;
     }
     button{
       position: relative;
