@@ -3,13 +3,13 @@
     <ul>
         <li><a  href="https://new-thread.com/" id="newth"><button id="New" >NewThread</button></a></li>
 
-        <li><a href="#introuduce1"><button id="Introuduce">方向简介</button></a></li>
+        <li><a href="#introuduce1"><button id="Introuduce">Introduction</button></a></li>
 
-        <li><a href="#foremo"><button id="MoreQ">更多问题</button></a></li>
+        <li><a href="#foremo"><button id="MoreQ">Q&A</button></a></li>
 
-        <li><a href="#leftx"><button id="Contact">联系我们</button></a></li>
+        <li><a href="#leftx"><button id="Contact">Contact Us</button></a></li>
 
-        <li><a href="#dingwei"><button id="Aboutus">关于我们</button></a></li>
+        <li><a href="#dingwei"><button id="Aboutus">About Us</button></a></li>
     </ul>
 
 </template>
@@ -77,7 +77,6 @@ button{
     position: relative;
     background: none;
     border: none;
-
     outline: none;
     cursor: pointer;
     transition-duration: 0.4s;
@@ -108,7 +107,7 @@ ul {
     position: absolute;
     left: 25vw;
     top: 17%;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
         font-family: FZYaoti;
 }
 
@@ -116,7 +115,7 @@ ul {
     position: absolute;
     left: 65vw;
     top: 17%;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
         font-family: FZYaoti;
 }
 
@@ -124,7 +123,7 @@ ul {
     position: absolute;
     left: 12vw;
     top: 17%;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
         font-family: FZYaoti;
 }
 
@@ -132,7 +131,7 @@ ul {
     position: absolute;
     left: 78vw;
     top: 17%;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
         font-family: FZYaoti;
 }
 

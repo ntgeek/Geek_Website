@@ -3,12 +3,10 @@
   <div id="foremo">
 <img  id="b" src="http://img.nt-geek.club/question.png">
 <img  id="decoration" src="http://img.nt-geek.club/s.png" alt="">
-
 <img  id="decoration1" src="http://img.nt-geek.club/e.png" alt="">
 <img  id="decoration2" src="http://img.nt-geek.club/g.png" alt="">
 <img  id="decoration3" src="http://img.nt-geek.club/1.png" alt="">
 <img  id="decoration4" src="http://img.nt-geek.club/%E7%99%BD.png" alt="">
-
 <img  id="decoration5" src="http://img.nt-geek.club/%E7%99%BD.png" alt="">
 
     
@@ -30,7 +28,7 @@
               <li>2.招新是安排在什么时间？</li>
             </button><br>
 
-            <span id="yinshen2" class="a" style="display: none"><li>答：按照惯例，正式招新时间是在9月下旬~10月上旬，不过今年可能会有一些改动，地点一般在9号教学楼。 如果想要了解加入我们，可以加入Q群，招新具体的安排/变动会在招新群通知的。</li></span><br><br>
+            <span id="yinshen2" class="a" style="display: none"><li>答：按照惯例，正式招新时间是在9月下旬~10月上旬，不过今年会有一些改动，笔试地点一般在9号教学楼。 如果想要了解我们，可以加入我们的QQ群，招新具体的安排/变动会在招新群通知。</li></span><br><br>
         </div>
 
 
@@ -39,7 +37,7 @@
               <li>3.我们有考核吗？考核流程是怎样的呀？</li>
             </BUTTON><br>
 
-            <span id="yinshen3" class="a" style="display: none"><li>答：嗯...考核还是比较严格的, 不过别紧张hhh, 开玩笑啦~我们一共有一轮笔试和两轮面试。第一轮笔试，考虑到有技术和经验尚缺但学习能力很强的新生，第一轮多是一些视野性的题目（这一轮选拔淘汰率并不高）。第二轮单独面试，话题包括根据你的笔试提出技术相关的问题、你的兴趣爱好、个人看法。最后一轮群面。首先问及时间分配上的问题（请避免时间冲突的情况），其次我们会向你提出各种稀奇古怪的问题。这一轮中许多题目其实并不难，也无标准答案，重在考察同学们在压力下的逻辑思维。全部通过就可以进入考核期成为预备成员啦。
+            <span id="yinshen3" class="a" style="display: none"><li>答：嗯...我们一共有一轮笔试和两轮面试。权衡技术、经验和学习能力，第一轮是一些视野性的题目，淘汰率并不高。第二轮单独面试，根据你的笔试提出技术相关的问题、兴趣爱好、个人看法。最后一轮群面，首先问及时间分配上的问题，其次也会向你提出各种奇怪的问题。这一轮中许多题目其实并不难，也无标准答案，重在考察同学们在压力下的逻辑思维。全部通过成为预备成员啦。
             </li></span><br><br>
         </div>
 
@@ -59,7 +57,7 @@
               <LI>5.进入Geek组之后都有什么福利呢？</LI>
             </BUTTON><br>
 
-            <span id="yinshen5" class="a" style="display: none"><li>答：1对1的新人指引，每一个成员都有会一个mentor, 带你初入门槛，与你一同成长张扬个性，组内管理比较宽松,在尊重其他人的前提下可以尽情发挥自己的个性。打破平淡，与同样疯狂的人把你疯狂的idea实现出来，磨砺耐性、培养互联网思维、成就自己的梦想。丰富资源，Lab设备/网络资源充足（可能是学校实验室最好的条件之一），闲暇之余也有组织活动与聚餐。我们组的指导老师是整个团队的创始人, 非常nice且有趣, 有许多的故事等你来听~
+            <span id="yinshen5" class="a" style="display: none"><li>答：1对1的新人指引，每一个成员都有会一个mentor, 带你初入门槛，与你一同成长，组内管理较宽松,在尊重其他人的前提下可以尽情发挥自己的个性。打破平淡，与同样疯狂的人把疯狂的idea实现，磨砺耐性、培养思维、成就梦想。Lab设备/网络资源充足，闲暇之余也有组织活动。更有许多的故事等你来听~
             </li></span><br>
         </div>
 
@@ -69,7 +67,7 @@
               <li>6.进入团队会影响我的日常学习吗？</li>
               </BUTTON><br>
 
-            <span ID="yinshen6" class="a" style="display: none"><li>答：你要知道大学是一个可以自由安排自己学习生活的地方。如果你想在上课之余充实自己、激励自己，最好的方法就是和比自己更优秀的人在一起。团队不缺优秀的人，而我们也期待同样优秀的你，让我们一起前进！总有比你优秀的人比你更努力！小组里也有不少保研, 考研的前辈们, 大部分都能很好的找到一个平衡点, 而且团队的经历对你日后读研, 工作都大有裨益, 导师/面试官更倾向选择有过团队文化和实践的人
+            <span ID="yinshen6" class="a" style="display: none"><li>答：你要知道大学是一个可以自由安排自己学习生活的地方。如果你想在上课之余充实自己、激励自己，最好的方法就是和比自己更优秀的人在一起。团队不缺优秀的人，而我们也期待同样优秀的你，让我们一起前进！小组里也有不少保研, 考研的前辈们, 大部分都能找到一个平衡点, 而且团队的经历对你日后读研, 工作都大有裨益。
             </li></span><br>
         </div>
 
@@ -80,7 +78,7 @@
               <li>7.老师以及学长学姐们的期望是什么?</li>
             </BUTTON>
 
-            <span id="yinshen7" class="a" style="display: none"><li>答：我们希望你有很强的自学能力，同时关注新事物、新技术，喜欢挑战，乐观开朗，逻辑性强，善于和各种文化的人合作.“每个人都可以做自己想做的事情，每个人的方向不一样。如果你想做某个产品，或者你有一个不错的 idea，那么就可以找志同道合的人一起合作。”
+            <span id="yinshen7" class="a" style="display: none"><li>答：我们希望你有很强的自学能力，同时关注新事物、新技术，喜欢挑战，逻辑性强，善于和各种文化的人合作.“每个人都可以做自己想做的事情，每个人的方向不一样。如果你想做产品或有不错的 idea，那么就可以找志同道合的人一起合作。”
             </li></span><br><br><br><br><br>
         </div>
 
@@ -246,7 +244,7 @@
         outline: none;
         text-align: left;
         top: 2vw;
-        width: 60%;
+        width: 60vw;
         cursor: pointer;
       }
 
@@ -265,8 +263,8 @@
       li{
         font-size: 1.8vw;
         position: relative;
-        left: 3%;
-        width: 58vw;
+        left: 0%;
+        width: 60vw;
         right: 10%;
         line-height: 4vw;
         }

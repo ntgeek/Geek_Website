@@ -4,10 +4,10 @@
 
       <div id="wen2">
           <span id="p1">产品经理/UI设计(PM/UI)</span><br>
-          <p>"好的软件的特征是,明明没用过，但总觉得用过似的。"</p>
-          <li class="a"> PM是针对某一项或是某一类的产品进行规划和管理的人员，主要负责产品的研发、制造、营销、渠道等工作。</li>
-          <li class="a">PM需要拥有缜密的产品逻辑思维，研究用户心理，准确把握互联网市场风向，负责产品的整个生命周期。</li><br><br>
-          <li class="a">PM参与产品的UI和交互设计，为设计和开发确定产品原型，能够将产品变得有个性有品位，操作变得舒适简单、自由。</li>
+          <p style="color:purple;">"好的软件的特征是,明明没用过，但总觉得用过似的。"</p>
+          <p id="ab"> PM是针对某一项或是某一类的产品进行规划和管理的人员。</p><br>
+          <li class="a">PM需要拥有缜密的产品逻辑思维，研究用户心理，负责产品的整个生命周期。</li><br><br>
+          <li class="a">PM参与产品的UI和交互设计，为设计和开发确定产品原型，能够将产品变得有个性,操作变得舒适简单、自由。</li><br><br>
           <li class="a">PM需要一定的文档能力和沟通能力，能够在团队合作的过程中跟各个角色进行有效沟通。</li>
       </div>
 
@@ -31,7 +31,7 @@
     #cat{position:relative;top: 76vw;left: -8%;}
     #chanpin{width: 35vw;height: 43vw;position: absolute;top: 0%;left: 18%;}
     span{font-size: 2vw;font-family: FZYaoti}
-    p{color:#7BD3FF;font-size: 2.7vw;font-family: FZYaoti;color:rgb(192, 115, 255);position: relative;top:1.5vw;}
+    p{font-size: 2.7vw;font-family: FZYaoti;position: relative;top:1.5vw;}
     li{font-size: 2vw;font-family: FZYaoti}
     #wen2{position: absolute;
       font-family: FZYaoti;
@@ -40,6 +40,11 @@
       width: 40vw;}
     #p1{font-size: 3vw}
     .a{position: relative;top:3vw;}
+    #ab{
+      font-size: 2vw;font-family: FZYaoti;
+      position: relative;
+      top: 2vw;
+    }
   }
   @media(max-width: 500px){
  
